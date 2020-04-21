@@ -1,0 +1,103 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	-moz-user-select: none;
+  -webkit-user-select: none;
+  font: 12px/20px "SimSun","宋体","Arial Narrow",HELVETICA;
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+html {
+  background-color: #FFFFFF;
+  font-family: "SimSun","宋体","Arial Narrow",HELVETICA;
+	line-height:22px;
+	font-size:16px;
+	text-align: left;
+}
+
+body {
+  background-color:#fff;
+  overflow:hidden;
+  height: 100%;
+  display: block;
+}
+
+nav ul li {
+	display:inline-block;
+	text-decoration:none;
+}
+
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c40000;
+
+}
+
+#jp-top-head-wrapper {
+  background-color: #efefef;
+  height: 38px;
+  border-bottom: 1px solid #dedede;
+}
+
+#jp-top-head-width {
+  display: block;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing:1px;
+  padding-top: 10px;
+
+}
+
+#jp-top-head-nav  {
+  text-align: right;
+}
+
+#jp-top-head-left {
+  width: auto;
+  float:left;
+}
+
+.main {
+  width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+/*Naviboxen oben */
+
+.box1 {
+  width:330px;
+  margin-left:20px
+}
