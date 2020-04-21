@@ -63,13 +63,13 @@ a:hover {
 
 }
 
-#jp-top-head-wrapper {
+#cn-top-head-wrapper {
   background-color: #efefef;
   height: 38px;
   border-bottom: 1px solid #dedede;
 }
 
-#jp-top-head-width {
+#cn-top-head-width {
   display: block;
   width: 1000px;
   margin-left: auto;
@@ -79,11 +79,11 @@ a:hover {
 
 }
 
-#jp-top-head-nav  {
+#cn-top-head-nav  {
   text-align: right;
 }
 
-#jp-top-head-left {
+#cn-top-head-left {
   width: auto;
   float:left;
 }
