@@ -19,7 +19,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 	-moz-user-select: none;
   -webkit-user-select: none;
-  font: 12px/20px "SimSun","宋体","Arial Narrow",HELVETICA;
+  font-family: "Microsoft YaHei","微软雅黑","SimSun","宋体";
 
 }
 /* HTML5 display-role reset for older browsers */
@@ -36,7 +36,6 @@ html {
   background-color: #FFFFFF;
   font-family: "SimSun","宋体","Arial Narrow",HELVETICA;
 	line-height:22px;
-	font-size:16px;
 	text-align: left;
 }
 
@@ -44,14 +43,31 @@ body {
   background-color:#fff;
   overflow:hidden;
   height: 100%;
-  display: block;
 }
 
+/* Breite der einzelnen Navipunkte (also pro chin. Zeichen)*/
 nav ul li {
-	display:inline-block;
+	display:inline;
 	text-decoration:none;
-  width: 18px;
+  width: 50px;
+  text-align: left;
+  padding-right: 10px;
+  font-size: 14px;
+}
 
+nav ul {
+    padding-bottom: 10px;
+}
+
+nav ul ul li {
+    background-color: #efefef;
+    display: block;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    width: 45px;
+    line-height: 30px;
+    text-align: center;
 }
 
 
@@ -61,15 +77,15 @@ a {
 }
 
 a:hover {
-  color: #c40000;
-
+  color: #1579D7;
 }
 
 .cn-top-head-li {
   display:inline-block;
   text-decoration:none;
-
 }
+
+/*Links über dem Logobereich */
 
 #cn-top-head-wrapper {
   background-color: #efefef;
@@ -79,7 +95,7 @@ a:hover {
 
 #cn-top-head-width {
   display: block;
-  width: 1000px;
+  width: 1020px;
   margin-left: auto;
   margin-right: auto;
   letter-spacing:1px;
@@ -89,6 +105,7 @@ a:hover {
 
 #cn-top-head-nav  {
   text-align: right;
+  margin-right: 58px;
 }
 
 #cn-top-head-left {
@@ -97,49 +114,149 @@ a:hover {
 }
 
 .main {
-  width: 1000px;
-  display: block;
+  width: 1020px;
   margin-left: auto;
   margin-right: auto;
 }
 
 /*Naviboxen oben */
 
-#main-nav-area {
-  float:left;
-  display: block;
-}
-
 
 .box  {
   padding-top:8px;
-  float:left;
   display: inline-block;
-  font-size: 20px;
-  padding-top: 19px;
-  line-height: 26px;
-    text-align: left;
-
-
+  line-height: 17px;
+  text-align: left;
+  width: 180px;
+  float: left;
 }
 
 #box1 {
   border-left:none;
-  margin:0 auto;
-  width:110px;
-  padding-right: 10px;
+  margin:0;
+    float:left;
+
 
 }
 
 .box2  {
   border-left: 1px solid #dedede;
   padding-left:20px;
-width:110px;
+}
+
+.boxlast {
+  padding-top:8px;
+  float:left;
+  display: inline-block;
+  line-height: 17px;
+  text-align: left;
+  width: 200px;
 
 }
 
-#logo {
-  background-image: url(...\img);
+.search_padding {
+  padding-top: 15px;
+}
 
+#logoleiste {
+  height: 60px;
+  margin-top: 20px;
+
+}
+
+
+
+#logo {
+  width: 160px;
+  float:left;
+}
+
+#suche {
+  width: 300px;
+  margin-left: 40px;
+  border-radius: 4px;
+  border-right: none;
+  height: 35px;
+  border-style: ridge;
+  border-color: #dbdbdb;
+  border-width:1px;
+  border-style: solid;
+
+}
+
+
+#search_lupe {
+  height: 20px;
+  padding: 5px;
+  background-color: #1579D7;
+  border-width:2px;
+  border-style: solid;
+  border-radius: 4px;
+  border-color: #1579D7;
+}
+
+#search_lupe:hover {
+  background-color: #004b91;
+}
+
+
+
+#submenu {
+  display: none;
+  position: absolute;
+  margin-left: 124px;
+  padding-top: 6px;
+}
+
+#submenu_0 {
+  margin: 0;
+  width: 60px;
+}
+
+
+#submenu_0:hover #submenu {
+  display: block;
+}
+
+
+
+#arrow_submenu {
+width: 11px;
+
+}
+
+#qr_schrift {
+  padding-top: 20px;
+  text-align: right;
+  width: 200px;
+}
+
+
+#qr_img_div {
+width: 120px;
+
+
+}
+#qr_img {
+  width: 100px;
+  padding-left: 5px;
+  position: absolute;
+  display: none;
+}
+
+
+#qr_schrift:hover {
+  color: #1579D7;
+}
+
+#qr_schrift:hover #qr_img {
+  display: inline-block;
+}
+
+#contact {
+  width: 222px;
+float: left;
+text-align: right;
+  padding-top: 18px;
 
 }
