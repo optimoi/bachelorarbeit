@@ -8,7 +8,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
-figure, figcaption, footer, header,
+figure, figcaption, footer,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,13 +24,10 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
-footer, header, menu, nav, section {
+footer, menu, nav, section {
 	display: block;
 }
 
-ol, ul {
-	list-style: none;
-}
 
 html {
   background-color: #FFFFFF;
@@ -41,17 +38,21 @@ html {
 
 body {
   background-color:#fff;
-  overflow:hidden;
-  height: 100%;
+
+	display: block;
+}
+
+
+ul {
+	list-style: none;
 }
 
 /* Breite der einzelnen Navipunkte (also pro chin. Zeichen)*/
 nav ul li {
 	display:inline;
 	text-decoration:none;
-  width: 50px;
   text-align: left;
-  padding-right: 10px;
+  padding-right: 18px;
   font-size: 14px;
 }
 
@@ -80,6 +81,10 @@ a:hover {
   color: #1579D7;
 }
 
+main {
+	margin-top: 15px;
+}
+
 .cn-top-head-li {
   display:inline-block;
   text-decoration:none;
@@ -95,10 +100,9 @@ a:hover {
 
 #cn-top-head-width {
   display: block;
-  width: 1020px;
+  width: 1220px;
   margin-left: auto;
   margin-right: auto;
-  letter-spacing:1px;
   padding-top: 10px;
 
 }
@@ -113,11 +117,17 @@ a:hover {
   float:left;
 }
 
+#switcher:hover {
+	  color: #1579D7;
+}
+
 .main {
-  width: 1020px;
+  width: 1220px;
   margin-left: auto;
   margin-right: auto;
 }
+
+
 
 /*Naviboxen oben */
 
@@ -127,21 +137,21 @@ a:hover {
   display: inline-block;
   line-height: 17px;
   text-align: left;
-  width: 180px;
+  width: 213px;
   float: left;
 }
 
 #box1 {
   border-left:none;
   margin:0;
-    float:left;
+  float:left;
 
 
 }
 
 .box2  {
   border-left: 1px solid #dedede;
-  padding-left:20px;
+  padding-left:31px;
 }
 
 .boxlast {
@@ -150,8 +160,7 @@ a:hover {
   display: inline-block;
   line-height: 17px;
   text-align: left;
-  width: 200px;
-
+  width: 215px;
 }
 
 .search_padding {
@@ -172,7 +181,7 @@ a:hover {
 }
 
 #suche {
-  width: 300px;
+  width: 380px;
   margin-left: 40px;
   border-radius: 4px;
   border-right: none;
@@ -204,7 +213,7 @@ a:hover {
 #submenu {
   display: none;
   position: absolute;
-  margin-left: 124px;
+  margin-left: 147px;
   padding-top: 6px;
 }
 
@@ -228,7 +237,8 @@ width: 11px;
 #qr_schrift {
   padding-top: 20px;
   text-align: right;
-  width: 200px;
+  width: 250px;
+		margin-left: 50px;
 }
 
 
@@ -247,6 +257,7 @@ width: 120px;
 
 #qr_schrift:hover {
   color: #1579D7;
+
 }
 
 #qr_schrift:hover #qr_img {
@@ -255,8 +266,136 @@ width: 120px;
 
 #contact {
   width: 222px;
-float: left;
-text-align: right;
+	float: left;
+	text-align: right;
   padding-top: 18px;
+
+}
+/* Slideshow*/
+.mySlides {
+/*	display: none;*/
+
+
+}
+
+/* Slideshow container */
+.slideshow-container {
+margin-top: 20px;
+float: left;
+
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.img-slider {
+	width: 992px;
+	height: 395px;
+}
+/*Seitenmenü neben Slider */
+.boxseitenmenu {
+	  line-height: 17px;
+	  width: 150px;
+	  float: left;
+		margin-right: 0px;
+		margin-top: 20px;
+		padding-top: 15px;
+		padding-left: 13px;
+		padding-right: 10px;
+		background-color: #efefef;
+}
+
+#liste-links-seitenmenu {
+		letter-spacing: 1px;
+		padding-bottom: 8px;
+
+}
+
+#liste-links-seitenmenu li {
+	padding-bottom: 10px;
+
+}
+
+.listenStyleDisc {
+	list-style: disc;
+	color:#1579D7;
+	font-size:8px;
+	padding-left: 13px;
+	padding-bottom: 1px;
+}
+
+#liste-links-seitenmenu a {
+	font-size: 16px;
+}
+
+/*Werbebanner top (wird nur eingeblendet wenn Slider display none)*/
+.werbebanner-breit {
+	width: 1100px;
+	margin-top: 20px;
+}
+
+#werbebanner-top {
+	display: none;
+
+}
+ /*Der Schalter zum Umstellen von Slider auf Werbebanner*/
+#switcher {
+	font-weight: bolder;
+}
+
+/*Definition des 3Col-Layouts*/
+.col1 {
+	width: 300px;
+	margin-right: 25px;
+	margin-top: 25px;
+	float:left;
+	border: 1px solid #dedede;
+}
+
+.col2 {
+	width: 514px;
+	margin-right: 25px;
+	margin-top: 25px;
+	float:left;
+}
+.col3{
+	width: 300px;
+	float:left;
+	margin-top: 25px;
+	border: 1px solid #dedede;
+}
+
+#footer {
+  background-color: #efefef;
 
 }

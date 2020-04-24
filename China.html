@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<header>
+<head>
   <meta charset="utf-8" />
   <meta name="author" content="Antje Dehmel (s53073)" />
 	<meta name="description" content="China Prototyp" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="china.css"/>
-		<title>China</title>
-  </header>
+  <script language="javascript" type="text/javascript" src="js.js"></script>
+	<title>China</title>
+  </head>
 <body>
-
 <!-- Kleine Navigation über dem Logobreich--->
   <div id="cn-top-head-wrapper">
     <div id="cn-top-head-width">
@@ -18,7 +18,7 @@
           <div id="cn-top-head-nav">
             <ul>
               <li class="cn-top-head-li"><a href="#" target="_blank">设为默认首页 | </a></li>
-              <li class="cn-top-head-li"><a href="#" target="_blank"> 登录</a></li>
+              <li class="cn-top-head-li" id="switcher">SWITCH</a></li>
             </ul>
           </div>
     </div>
@@ -157,9 +157,9 @@
               <li><a target="_blank" href="#"><strong>科技</strong></a></li>
               <li><a target="_blank" href="#">宏观</a></li>
               <li><a target="_blank" href="#">理财</a></li>
-              <li id="submenu_0"><a target="_blank" href="#">基金<img  id="arrow_submenu" src="img/cn_arrow_submenu.png" alt="chinese webdesgin - prototyp"></a>
+              <li id="submenu_0"><a target="_blank" href="#">基金<img  id="arrow_submenu" src="img/cn_arrow_submenu.png" alt="arrow"></a>
                <ul id="submenu">
-                  <li id="submenu_first_li"><a target="_blank" href="#">搜索</a></li>
+                  <li id="submenu_first_li"><a target="_blank" href="#">搜索 </a></li>
                   <li><a target="_blank" href="#">政务</a></li>
                   <li><a target="_blank" href="#">车险</a></li>
                   <li><a target="_blank" href="#">页游</a></li>
@@ -170,12 +170,98 @@
             </li>
           </ul>
         </div>
-
-
-
       </nav>
-    </div> <!-- Wrapper für Main Navigation-->
-    <!-- Ende Main Navigation -->
-
     </div>
+    <!-- Ende Main Navigation -->
+<main>
+  <!-- Wrapper und Anfang Contentbereich-->
+
+  <div class="boxseitenmenu switch">
+    <div>
+      <ul class="listenStyleDisc" id="liste-links-seitenmenu">
+         <li><a target="_blank" href="#">绿色猕猴桃</a></li>
+         <li><a target="_blank" href="#">黄班纳</a></li>
+         <li><a target="_blank" href="#">红樱桃</a></li>
+         <li><a target="_blank" href="#">甜橙芒果</a></li>
+         <li><a target="_blank" href="#">无籽草莓</a></li>
+         <li><a target="_blank" href="#">无籽红绿葡萄</a></li>
+         <li><a target="_blank" href="#">菠酸甜苦辣辣</a></li>
+         <li><a target="_blank" href="#">多毛的树莓</a></li>
+         <li><a target="_blank" href="#">蓝莓</a></li>
+         <li><a target="_blank" href="#">品红梅</a></li>
+         <li><a target="_blank" href="#">法式柚子</a></li>
+         <li><a target="_blank" href="#">希腊甜瓜</a></li>
+     </ul>
+    </div>
+  </div>
+  <!-- Slideshow container -->
+  <div class="slideshow-container switch">
+    <div class="mySlides fade">
+      <img class="img-slider" src="img/slider_image_1_green.jpg">
+    </div>
+<div class="mySlides fade">
+      <img class="img-slider" src="img/slider_image_1_green.jpg">
+    </div>
+  <div class="mySlides fade">
+    <img class="img-slider" src="img/slider_image_1_green.jpg">
+  </div>
+
+    <div style="text-align:center; padding-right: 40px;">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+</div>
+<div id="werbebanner-top"><img class="werbebanner-breit" src="img/cn_werbebanner.png"></div>
+<div>
+    <div class="col1">  <ul class="listenStyleDisc" id="liste-links-seitenmenu">
+         <li><a target="_blank" href="#">绿色猕猴桃</a></li>
+         <li><a target="_blank" href="#">黄班纳</a></li>
+         <li><a target="_blank" href="#">红樱桃</a></li>
+         <li><a target="_blank" href="#">甜橙芒果</a></li>
+         <li><a target="_blank" href="#">无籽草莓</a></li>
+
+     </ul></div>
+    <div class="col2">
+      <ul class="listenStyleDisc" id="liste-links-seitenmenu">
+         <li><a target="_blank" href="#">绿色猕猴桃</a></li>
+         <li><a target="_blank" href="#">黄班纳</a></li>
+         <li><a target="_blank" href="#">红樱桃</a></li>
+         <li><a target="_blank" href="#">甜橙芒果</a></li>
+         <li><a target="_blank" href="#">无籽草莓</a></li>
+         <ul class="listenStyleDisc" id="liste-links-seitenmenu">
+            <li><a target="_blank" href="#">绿色猕猴桃</a></li>
+            <li><a target="_blank" href="#">黄班纳</a></li>
+            <li><a target="_blank" href="#">红樱桃</a></li>
+            <li><a target="_blank" href="#">甜橙芒果</a></li>
+            <li><a target="_blank" href="#">无籽草莓</a></li>
+
+        </ul>
+
+     </ul>
+    </div>
+    <div class="col3">  <ul class="listenStyleDisc" id="liste-links-seitenmenu">
+         <li><a target="_blank" href="#">绿色猕猴桃</a></li>
+         <li><a target="_blank" href="#">黄班纳</a></li>
+         <li><a target="_blank" href="#">红樱桃</a></li>
+         <li><a target="_blank" href="#">甜橙芒果</a></li>
+         <li><a target="_blank" href="#">无籽草莓</a></li>
+         <ul class="listenStyleDisc" id="liste-links-seitenmenu">
+            <li><a target="_blank" href="#">绿色猕猴桃</a></li>
+            <li><a target="_blank" href="#">黄班纳</a></li>
+            <li><a target="_blank" href="#">红樱桃</a></li>
+            <li><a target="_blank" href="#">甜橙芒果</a></li>
+            <li><a target="_blank" href="#">无籽草莓</a></li>
+
+        </ul>
+
+     </ul></div></div>
+
+       <!--<div style="width: 500px; background-color: #121212;">121212
+</div>-->
+
+
+</main>
+
 </body>
+</html>
