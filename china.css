@@ -268,11 +268,6 @@ width: 120px;
 
 }
 /* Slideshow*/
-.mySlides {
-/*	display: none;*/
-
-
-}
 
 /* Slideshow container */
 .slideshow-container {
@@ -283,8 +278,8 @@ float: left;
 
 /* The dots/bullets/indicators */
 .dot {
-  height: 12px;
-  width: 12px;
+  height:0px;
+  width: 0px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
@@ -317,6 +312,22 @@ float: left;
 .img-slider {
 	width: 992px;
 	height: 395px;
+}
+
+/* Slideshow container links */
+.slideshow-container1 {
+	width: 200px;
+	height: 300px;
+	margin-right: 25px;
+	margin-top: 15px;
+	border: 1px solid #dedede;
+	float: left;
+
+}
+
+.img-slider1 {
+	width: 200px;
+
 }
 /*Seitenmenü neben Slider */
 .boxseitenmenu {
@@ -391,23 +402,28 @@ float: left;
 
 /*Definition des 3Col-Layouts*/
 .col1 {
-	width: 300px;
+	width: 500px;
+	height: 300px;
 	margin-right: 25px;
 	margin-top: 25px;
-	float:left;
 	border: 1px solid #dedede;
+	float: left;
+
 }
 
 .col2 {
-	width: 514px;
+	width: 543px;
 	margin-right: 25px;
-	margin-top: 25px;
+	margin-top: 15px;
 	float:left;
 }
+
+
+
 .col3{
 	width: 300px;
 	float:left;
-	margin-top: 25px;
+	margin-top: 15px;
 	border: 1px solid #dedede;
 }
 
