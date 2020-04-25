@@ -8,7 +8,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
-figure, figcaption, footer,
+figure, figcaption, footer,main
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
-footer, menu, nav, section {
+footer, menu, nav, section, main {
 	display: block;
 }
 
@@ -79,10 +79,6 @@ a {
 
 a:hover {
   color: #1579D7;
-}
-
-main {
-	margin-top: 15px;
 }
 
 .cn-top-head-li {
@@ -333,6 +329,7 @@ float: left;
 		padding-left: 13px;
 		padding-right: 10px;
 		background-color: #efefef;
+		height: 380px;
 }
 
 #liste-links-seitenmenu {
@@ -360,14 +357,33 @@ float: left;
 
 /*Werbebanner top (wird nur eingeblendet wenn Slider display none)*/
 .werbebanner-breit {
-	width: 1100px;
+	width: 1040px;
 	margin-top: 20px;
+	float: left;
+}
+
+.werbebanner-schmal {
+	width: 121px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 21px;
+	height: 95px;
+
 }
 
 #werbebanner-top {
 	display: none;
+}
+
+#werbebanner-top2 {
+		display: none;
+}
+.werbebanner-breit2 {
+	width: 1170px;
+	margin-top: 20px;
 
 }
+
  /*Der Schalter zum Umstellen von Slider auf Werbebanner*/
 #switcher {
 	font-weight: bolder;
@@ -395,7 +411,99 @@ float: left;
 	border: 1px solid #dedede;
 }
 
-#footer {
-  background-color: #efefef;
+/*Footer*/
+footer {
+		width:1163px;
+		height: 100px;
+		text-align: left;
+		margin-left: 7px;
+		font-size: 12px;
+		line-height: 30px;
+		margin-top: 30px;
+		padding-top: 20px;
+	  float:left;
+		padding-bottom: 10px;
 
+}
+
+footer  li {
+  text-decoration:none;
+	display: inline;
+	padding-left: 107px;
+	text-align: left;
+}
+.footer-abstand  {
+margin-bottom: 15px;
+
+}
+
+.footer-border {
+	border: 1px solid #efefef;
+	padding-top:10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+}
+.footer-lower-line {
+padding-left: 15px;
+text-align: center;
+padding-bottom: 8px;
+}
+	.footer-first-item {
+	padding-left: 30px;
+}
+
+footer .footer-lower-line a {
+	padding-right: 20px;
+
+}
+
+#copyright {
+	padding-bottom: 40px;
+}
+
+.footer-border1 {
+	border: 1px solid #efefef;
+	border-bottom: none;
+	padding-top:20px;
+	padding-right: 0px;
+	padding-bottom: 30px;
+	height: 50px;
+}
+
+.footer-border2{
+	border: 1px solid #efefef;
+	border-bottom: none;
+	padding-top: 25px;
+	padding-right: 0px;
+	padding-left: 40px;
+	height: 80px;
+}
+
+.footer-4er {
+	line-height: 16px;
+	height: 18px;
+	padding-left: 30px;
+}
+
+.footer-4er-1-4 {
+	float:left;
+	width: 350px;
+}
+
+.footer-4er-2-3 {
+	float:left;
+	width: 230px;
+}
+.footer-siegel {
+	width: 50px;
+	padding-left: 20px;
+	float: left;
+}
+
+.footer_siegel_descr {
+	float: left;
+	width: 55px;
+	padding-left: 7px;
+	padding-top: 12px;
+	line-height: 12px;
 }

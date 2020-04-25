@@ -29,6 +29,7 @@ function showSlides() {
 
   var switcher = document.getElementById("switcher");
   var banner = document.getElementById("werbebanner-top");
+  var banner2 = document.getElementById("werbebanner-top2");
   var counter = 2;
   switcher.onclick = function () {
 
@@ -37,13 +38,15 @@ function showSlides() {
 
   if (counter % 2 !== 1) {
     hideSlider();
-    banner.style.display = "block"
+    banner.style.display = "block";
+    banner2.style.display = "block";
     counter++;
   }
     else {
       showSlider();
       counter++;
       banner.style.display = "none"
+      banner2.style.display = "none"
 
     }
 function hideSlider() {
