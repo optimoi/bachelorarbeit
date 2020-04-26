@@ -53,12 +53,14 @@ function showSlides1() {
   switcher.onclick = function () {
 
   var switchelements = document.getElementsByClassName("switch");
+  var switchwrapper = document.getElementById("switchable-banner-wrapper");
 
 
   if (counter % 2 !== 1) {
     hideSlider();
     banner.style.display = "block";
     banner2.style.display = "block";
+    switchwrapper.style.display = "none"
     counter++;
   }
     else {
@@ -66,6 +68,7 @@ function showSlides1() {
       counter++;
       banner.style.display = "none"
       banner2.style.display = "none"
+      switchwrapper.style.display = "block"
 
     }
 function hideSlider() {

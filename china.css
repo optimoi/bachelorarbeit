@@ -38,7 +38,6 @@ html {
 
 body {
   background-color:#fff;
-
 	display: block;
 }
 
@@ -131,6 +130,11 @@ a:hover {
 
 /*Naviboxen oben */
 
+.topnav-margin {
+	margin-bottom: 0;
+	margin-top: 12px;
+	padding-bottom: 0px;
+}
 
 .box  {
   padding-top:8px;
@@ -272,7 +276,7 @@ width: 120px;
 }
 /*Switchable Header Height */
 #switchable-banner-wrapper{
-	height: 500px;
+	height: 400px;
 }
 
 /* Slideshow container */
@@ -317,7 +321,7 @@ float: left;
 
 .img-slider {
 	width: 992px;
-	height: 395px;
+
 }
 
 /* Slideshow container links */
@@ -406,7 +410,7 @@ float: left;
 }
 .werbebanner-breit2 {
 	width: 1170px;
-	margin-top: 20px;
+
 
 }
 
@@ -415,21 +419,25 @@ float: left;
 	font-weight: bolder;
 }
 
-#content-margin {
-	margin-top: 20px;
+.content-margin {
+	margin-top: 120px;
 
 }
 
 /*Definition des 3Col-Layouts*/
 .col1 {
 	width: 250px;
+	float: left;
+	display: block;
+	margin-top: 20px;
 }
 
 .col2 {
-	width: 620px;
+	width: 560px;
 	margin-right: 25px;
 	float:left;
 	margin-left: 15px;
+	margin-top: 20px;
 }
 
 .textbox-mitte {
@@ -437,7 +445,6 @@ float: left;
 	padding: 0px 0px 0px  0px;
 	line-height: 28px;
 	font-size: 16px;
-	margin-top: 10px;
 }
 
 .textbox-mitte-abstand-unten {
@@ -448,20 +455,56 @@ float: left;
 	font-weight: bolder;
 }
 
-
-
 .col3{
-	width: 300px;
+	width: 310px;
 	float:left;
-	border: 1px solid #dedede;
+	margin-top: 25px;
 }
+
+/* Bilderwechselbox rechts */
+.rechts-bilderwechselkasten {
+	height: 150px;
+	width: 315px;
+	border: 1px solid #9a9a9a;
+}
+.rechts-bilderwechsel-top-zeile {
+	height: 25px;
+	border-bottom: 1px solid #9a9a9a;
+	background-color:#efefef;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 2px;
+}
+
+.rechts-bilderwechsel-text {
+	float: left;
+	width: 51px;
+	height: 25px;
+	border-right: 1px solid #9a9a9a;
+
+}
+
+.rechts-bilderwechsel-text-r {
+	float: left;
+	width: 49px;
+	height: 25px;
+}
+
+
 
 .textbox-links {
 	width: 220px;
 	padding: 0px 0px 0px  0px;
 	line-height: 25px;
 	font-size: 14px;
-	margin-top: 10px;
+}
+
+.textbox-rechts {
+	width: 300px;
+	padding: 0px 0px 0px  0px;
+	line-height: 25px;
+	font-size: 14px;
 }
 
 .Zweier-mit-descr-Abstand-oben {
