@@ -7,7 +7,6 @@ showSlides1();
 showSlides();
 
 
-
 function showSlides() {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -87,4 +86,17 @@ function showSlider() {
 
     }
   }
+function hoverBilderSilder(){
+  var i;
+  var hoverButtons = document.getElementsByClassName("rechts-bilderwechsel-text");
+  var hoverBilderSliderImg = document.getElementById("rechts-bilderwechsel-bild");
+  for (i = 0; i < hoverButtons.length; i++) {
+      var j = i;
+      console.log(`${j}, ${i}`);
+      hoverButtons[i].onmouseover = function() {
+        hoverBilderSliderImg.style.backgroundImage = `url('img/cn_2er_links_row2-${j}.jpg')`;
+      }
+
+    }
+}
 }
