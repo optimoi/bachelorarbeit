@@ -1,0 +1,49 @@
+Auffälligkeiten - CHINA
+
+passt sich nicht an BS-Größe an, irgendwann verschwinden die Elemente wenn man es kleiner zieht
+absolute Größenangaben, keine relativen
+
+Kein responsive Design, spartanisch adaotiv, nicht mobile First - es gibt in der Regel zu jeder seite eine App und im Headerbereich der Seite wird darauf verwiesen - per QR Code oft
+
+Man sieht insbesondere, wenn man erst den Adblocker drin hat und ihn dann ausschaltet, wie schwer es ist, WErbung von Content zu unterscheiden
+es ist viel bewegung, mouseover effekte, bilder zoomen ran oder eine animation startet (gif) oder es erscheint ein farbiger rand (in der main farbe der seite)
+Javascript zur Animierung
+
+HTML Code alles mit ul li aufgebaut
+
+Kein  Social Media (Politik!, kommentiert wird nur im eigenen System)
+
+
+werbebanner-breit2 - muss ich noch schmaler machen - das in der mitte vor den regelmäßigen contentblöcken, header noch mehrere bannerbilder, lila banner austauschen gegen was dezenteres,
+einige bilder gegen werbung austauschen (erkennbar), 2er mit text rechts schmaler und austauschen
+
+Es ist gar nicht so einfach als deutscher so unregelnmäßíg wiöd durcheinander zu programmieren, man ist gewohnt abstände zu lassen, weißraum und elemente atmen zu lassen
+
+Seiten sehen teils sehr farblos aus, wenn man den Adblocker anhat
+
+katzengif einfügen
+
+Alles in Unordered Lists auf Seite angeordnet
+
+Oftmals passen Subseiten nicht eins zu eins zur Home  Seite, bei uns in der Regel Wiedererkennungswert über den Headerbereich
+
+Bei uns geht ja vieles über CMS, die Templates mit sich bringen, deshalb hat man oft das Gefühl, dass die Websiten zu weiten Teilen alle gleich aussehen
+
+Bei China nochmal das Tracking checken - ich glaube da wird noh mehr getrackt als Google Tag Manager oder was anderes
+________________________________
+
+Japan
+
+2col ein breiter, zwei schmale
+
+Javascript in HTML, ebenso reichlich style-code, aber dennoch auch ausgelagerte Dateien
+
+Alles in Divs und Unordered Lists auf Seite angeordnet (wie China, liegt auch daran, dass einfach alles verlinkt ist und in jeder Zeile ein neuer Link)
+HTML
+
+Nur teilweise wird mit gliedernden Elementen wie section, article und aside und so weiter gearbeitet (nachprüfen in den Top 50, auch bei China nochmal checken=)
+
+Womit wird getrackt? Google Tag Manager in JP
+
+teilweise responsives Design, teilweise nichzt, teils Hinweis auf  die entsprechede App (anders als in China wird die einem aber nicht so aufgedrängt, sondern dezenter angeboten, z.B. ganz unten unter Contentbereich)
+--> die größßere Zahl an Seiten scheint aber responsiv (nachzählen!) - bei allen vielleicht einfach als Tabelle anglegen

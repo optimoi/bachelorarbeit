@@ -65,3 +65,34 @@ a {
 a:hover {
   color: #1579D7;
 }
+
+/* Top Header über die komplette Fensterbreite*/
+#top-head-wrapper {
+  background-color: #efefef;
+  height: 38px;
+  border-bottom: 1px solid #dedede;
+}
+
+#top-head-width {
+  display: block;
+  width: 1220px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+
+}
+
+#top-head-nav  {
+  text-align: right;
+  margin-right: 58px;
+}
+
+#top-head-left {
+  width: auto;
+  float:left;
+}
+
+#top-head-left {
+  width: auto;
+  float:left;
+}
