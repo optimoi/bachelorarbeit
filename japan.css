@@ -96,3 +96,7 @@ a:hover {
   width: auto;
   float:left;
 }
+/* Aktive Sprachversion */
+#active-lang {
+  font-weight: bolder
+}

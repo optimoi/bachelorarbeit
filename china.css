@@ -112,6 +112,12 @@ a:hover {
   float:left;
 }
 
+/* Aktive Sprachversion */
+#active-lang {
+  font-weight: bolder
+}
+
+/*Switcher für alternativen Headerbereich*/
 #switcher:hover {
 	  color: #1579D7;
 }
