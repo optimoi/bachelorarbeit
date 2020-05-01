@@ -19,7 +19,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 	-moz-user-select: none;
   -webkit-user-select: none;
-  font-family: "Microsoft YaHei","微软雅黑","SimSun","宋体";
+  font-family: "Microsoft YaHei","微软雅黑","SimSun","宋体", "sans";
 
 }
 /* HTML5 display-role reset for older browsers */
@@ -31,7 +31,6 @@ footer, menu, nav, section, main {
 
 html {
   background-color: #FFFFFF;
-  font-family: "SimSun","宋体","Arial Narrow",HELVETICA;
 	line-height:22px;
 	text-align: left;
 }
@@ -94,7 +93,6 @@ a:hover {
 }
 
 #cn-top-head-width {
-  display: block;
   width: 1220px;
   margin-left: auto;
   margin-right: auto;
@@ -110,6 +108,10 @@ a:hover {
 #cn-top-head-left {
   width: auto;
   float:left;
+}
+
+#cn-top-head-left a {
+	  font-size: 14px;
 }
 
 /* Aktive Sprachversion */
@@ -211,6 +213,7 @@ a:hover {
   border-style: solid;
   border-radius: 4px;
   border-color: #1579D7;
+	float: right;
 }
 
 #search_lupe:hover {
