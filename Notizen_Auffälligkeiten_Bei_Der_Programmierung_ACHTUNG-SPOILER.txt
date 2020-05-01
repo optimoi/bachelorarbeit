@@ -47,3 +47,42 @@ Womit wird getrackt? Google Tag Manager in JP
 
 teilweise responsives Design, teilweise nichzt, teils Hinweis auf  die entsprechede App (anders als in China wird die einem aber nicht so aufgedrängt, sondern dezenter angeboten, z.B. ganz unten unter Contentbereich)
 --> die größßere Zahl an Seiten scheint aber responsiv (nachzählen!) - bei allen vielleicht einfach als Tabelle anglegen
+
+Japan
+Font Familiy
+'ヒラギノ角ゴ ProN W3','Hiragino Kaku Gothic ProN',sans-serif
+
+https://smt.docomo.ne.jp/
+
+-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI",Meiryo,"Hiragino Sans","Hiragino Kaku Gothic ProN",sans-serif;
+http://syosetu.com/
+
+Wir arbeiten mit Min-Width 1048px
+
+990 980 1200 990
+
+Weitere Rubrik: Contentbreite
+
+Anders als bei China sind die Logos hier entweder in japanischer schrift oder in römischer (?)
+
+Weniger farbig als China, Logo-/Menüfarbe wiederholt sich kaum, max in sehr kleinen Details
+es wird mehr mit buttons gearbeitet, in china im grunde keine, hier viel
+
+Suchleiste dezenter (nochmal prüfen)
+
+Suchleiste Ecken nicht so rund wie bei China
+
+Header in der Regel zumindest in Teilen über 100 % Breite
+mehr Arbeit mit farbigen (oder grauen), also nicht-weißen Flächen
+teilweise umfassende Menüs, teils schmal, teils gar nicht
+
+oben geht Element über ganze Breite, Contentbereich eher schmal
+bei Seiten über Kunst, M>anga etc bunte Bilder, sonst eher zurüchaltend
+
+
+A80000
+
+Orange ist eine gern genommene Farbe für Buttons
+Kombi bläulich mit orange
+
+So wie die SChrift luftiger wirkt als bei der chinesischen Seite, wirkt auch die Seite luftiger
