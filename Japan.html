@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="japan.css"/>
   <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
-  <script language="javascript" type="text/javascript" src="js.js"></script>
+  <script language="javascript" type="text/javascript" src="japan.js"></script>
 	<title>Japan</title>
   </head>
 <body>
@@ -29,10 +29,10 @@
             <a href="lateinamerika.html" target="_blank"> LAT |</a>
             <a href="indien.html" target="_blank"> IND</a>
         </div>
-    <div id="wrapper-suche-button" >
+    <div id="wrapper-suche-button">
          <input id="suche" type="search" placeholder="キーワードを入力してください">
          <img id="search_lupe" src="img/jpn/jp_lupe.png" alt="Search">
-         <div class="button-top">クリック</div>
+         <div class="button-top" id="switcher">SWITCH</div>
     </div>
 
 </div>
@@ -65,9 +65,33 @@
     </div>
   </div>
     </header>
+<!--Ende Headerbereich, Anfang Contentbereich -->
+<!--- Banner oben mit grau auf voller Breite-->
+<div id="platzhalter"></div>
   <div id="volle-breite-grau">
-  </div>
+<!--- Top Banner Switchable -->
+      <div id="switchable-banner-wrapper">
+          <a style="line-height: 15px;" target="_blank" href="#">
+            <img id="topbanner" src="img/jpn/jp_japanese_garden_topbanner.jpg" alt="topbanner">
+            <div id="topbanner-bildunterschrift">こんにちは、キャプションです。</ div></a>
+      </ div>
+</div>
+  <main>
+<!--- Definition Breite Contentbereich = 1000px -->
+    <div class="main">
+<!-- Col 1 - Breit -->
+      <div class="col1">
+      12121
+      </div>
+<!-- Col 2 Schmal -->
+      <div class="col2">
+      121212
+      </div>
+    </div>
+</main>
 
+
+<!-- Ende Contentbereich-->
 
 
 <section>

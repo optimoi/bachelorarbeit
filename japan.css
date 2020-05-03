@@ -8,7 +8,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
-figure, figcaption, footer,main
+figure, figcaption, footer,main,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -79,7 +79,7 @@ text-decoration: underline;
 /* Top Header über die komplette Fensterbreite*/
 #volle-breite-grau {
   background-color: #efefef;
-  height: 160px;
+  height: 360px;
 }
 
 #volle-breite-blau {
@@ -109,10 +109,14 @@ text-decoration: underline;
   font-weight: bolder;
 }
 
+main {
+  margin-top: 35px;
+}
+
 .main {
   width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+
 }
 
 /* Komplette Logoleiste mit Logo, Suche un 2 BUttons*/
@@ -179,5 +183,46 @@ text-decoration: underline;
   color: #FFFFFF;
   text-align: center;
 
+}
 
+.button-top:hover {
+  background-color: #FFB357;
+  border-color: #FFB357;
+}
+
+/* Switchable Topbanner */
+#topbanner {
+  width: 1000px;
+  padding-top: 15px;
+  border-width: 0;
+}
+#switchable-banner-wrapper {
+  width: 1000px;
+  margin: auto;
+  line-height: 15px;
+}
+
+#topbanner-bildunterschrift {
+  background-color: #FFFFFF;
+  height: 25px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+#platzhalter {
+  height: 15px;
+  background-color: #121212;
+  display: none;
+}
+/* Styles für den 2-Col-Contentbereich */
+.col1 {
+	width: 670px;
+	float: left;
+  background-color: #FFFFFF;
+  margin-right: 30px;
+}
+.col2 {
+	width: 300px;
+	float: left;
+  background-color: #FFFFFF;
 }
