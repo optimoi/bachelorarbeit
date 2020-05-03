@@ -63,6 +63,10 @@ nav ul li a {
   padding-right: 27px;
 }
 
+.nav-a-color {
+    color: #FFFFFF;
+}
+
 #nav-last {
   padding-right: 0px;
 }
@@ -211,7 +215,6 @@ main {
 
 #platzhalter {
   height: 15px;
-  background-color: #121212;
   display: none;
 }
 /* Styles für den 2-Col-Contentbereich */
@@ -220,9 +223,35 @@ main {
 	float: left;
   background-color: #FFFFFF;
   margin-right: 30px;
+  margin-bottom: 15px;
 }
 .col2 {
 	width: 300px;
 	float: left;
   background-color: #FFFFFF;
+}
+
+.ueberschrift-blau {
+	font-size: 18px;
+	font-weight: bolder;
+	color: #003E70;
+	padding-bottom: 11px;
+	border-bottom: 1.8px solid #d6d6d6;
+	margin-bottom: 10px;
+}
+/*Styles für Col1*/
+/*2 innere Col mit je links quadratisches Bild, rechts Text*/
+.col1-bild-text {
+  margin-right: 26px;
+
+}
+
+.col1-bild-links {
+  float: left;
+  width: 70px;
+  padding-right: 15px;
+}
+.col1-text-rechts-neben-bild {
+  float: left;
+  width: 237px;
 }

@@ -46,20 +46,20 @@
     <div class="main">
     <nav>
       <ul>
-          <li><a target="_blank" href="#"><strong>一つ</strong></a></li>
-          <li><a target="_blank" href="#">ふたつ</a></li>
-          <li><a target="_blank" href="#">三つ</a></li>
-          <li><a target="_blank" href="#">四つ</a></li>
-          <li><a target="_blank" href="#">五つ</a></li>
-          <li><a target="_blank" href="#">シックス</a></li>
-          <li><a target="_blank" href="#">七</a></li>
-          <li><a target="_blank" href="#">八つ</a></li>
-          <li><a target="_blank" href="#">ナイン</a></li>
-          <li><a target="_blank" href="#">テン</a></li>
-          <li><a target="_blank" href="#">イレブン</a></li>
-          <li><a target="_blank" href="#">十二</a></li>
-          <li><a target="_blank" href="#">十三</a></li>
-          <li><a id="nav-last" target="_blank" href="#">十四</a></li>
+          <li><a class="nav-a-color" target="_blank" href="#"><strong>一つ</strong></a></li>
+          <li><a class="nav-a-color" target="_blank" href="#">ふたつ</a></li>
+          <li><a class="nav-a-color" target="_blank" href="#">三つ</a></li>
+          <li><a class="nav-a-color" target="_blank" href="#">四つ</a></li>
+          <li><a class="nav-a-color" target="_blank" href="#">五つ</a></li>
+          <li><a class="nav-a-color" target="_blank" href="#">シックス</a></li>
+          <li><a class="nav-a-color" target="_blank" href="#">七</a></li>
+          <li><a class="nav-a-color" target="_blank" href="#">八つ</a></li>
+          <li><a class="nav-a-color" target="_blank" href="#">ナイン</a></li>
+          <li><a class="nav-a-color" target="_blank" href="#">テン</a></li>
+          <li><a class="nav-a-color" target="_blank" href="#">イレブン</a></li>
+          <li><a class="nav-a-color" target="_blank" href="#">十二</a></li>
+          <li><a class="nav-a-color" target="_blank" href="#">十三</a></li>
+          <li><a class="nav-a-color" id="nav-last" target="_blank" href="#">十四</a></li>
       </ul>
       </nav>
     </div>
@@ -67,38 +67,57 @@
     </header>
 <!--Ende Headerbereich, Anfang Contentbereich -->
 <!--- Banner oben mit grau auf voller Breite-->
-<div id="platzhalter"></div>
+
   <div id="volle-breite-grau">
 <!--- Top Banner Switchable -->
       <div id="switchable-banner-wrapper">
-          <a style="line-height: 15px;" target="_blank" href="#">
+          <a target="_blank" href="#">
             <img id="topbanner" src="img/jpn/jp_japanese_garden_topbanner.jpg" alt="topbanner">
-            <div id="topbanner-bildunterschrift">こんにちは、キャプションです。</ div></a>
-      </ div>
+            <div id="topbanner-bildunterschrift">こんにちは、キャプションです。</div></a>
+      </div>
 </div>
   <main>
 <!--- Definition Breite Contentbereich = 1000px -->
     <div class="main">
-<!-- Col 1 - Breit -->
-      <div class="col1">
-      12121
-      </div>
+<!-- Col 1 - Breit. Bereich mit in sich nochmal 2 Spalten, je links Bild rechts Text -->
+      <section class="col1">
+        <div class="ueberschrift-blau">
+        コンテンツエリアの前編
+        </div>
+
+        <article class="col1-bild-text">
+          <a target="_blank" href="#">
+            <img class="col1-bild-links" src="img/jpn/jp_col1_abschnitt_1_quadrat_1.jpg" alt="topbanner">
+            <div class="col1-text-rechts-neben-bild">こんにちは、キャプションです。</div></a>
+          </article>
+          <article class="col1-bild-text">
+            <a target="_blank" href="#">
+              <img class="col1-bild-links" src="img/jpn/jp_col1_abschnitt_1_quadrat_1.jpg" alt="topbanner">
+              <div class="col1-text-rechts-neben-bild">こんにちは、キャプションです。</div></a>
+            </article>
+        </section>
+        <section class="col1">
+          <article class="col1-bild-text">
+            <a target="_blank" href="#">
+              <img class="col1-bild-links" src="img/jpn/jp_col1_abschnitt_1_quadrat_1.jpg" alt="topbanner">
+              <div class="col1-text-rechts-neben-bild">こんにちは、キャプションです。</div></a>
+            </article>
+            <article class="col1-bild-text">
+              <a target="_blank" href="#">
+                <img class="col1-bild-links" src="img/jpn/jp_col1_abschnitt_1_quadrat_1.jpg" alt="topbanner">
+                <div class="col1-text-rechts-neben-bild">こんにちは、キャプションです。</div></a>
+              </article>
+          </section>
+
 <!-- Col 2 Schmal -->
       <div class="col2">
-      121212
+        <div class="ueberschrift-blau">
+            サイドメニュー
+        </div>
       </div>
     </div>
 </main>
-
-
 <!-- Ende Contentbereich-->
-
-
-<section>
-  <article>
-    </article>
-    </section>
-
 
 
 
