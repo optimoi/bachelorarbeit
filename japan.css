@@ -20,6 +20,7 @@ time, mark, audio, video {
   -webkit-user-select: none;
   font-family: "Noto Sans","Helvetica Neue";
   font-weight: 400;
+  font-size: 14px;
 
 }
 /* HTML5 display-role reset for older browsers */
@@ -242,16 +243,44 @@ main {
 /*Styles für Col1*/
 /*2 innere Col mit je links quadratisches Bild, rechts Text*/
 .col1-bild-text {
-  margin-right: 26px;
-
+  float: left;
+  padding-bottom:9px;
+  padding-top: 9px;
+  border-bottom: 1px solid #efefef;
+  margin-right: 10px;
 }
 
 .col1-bild-links {
   float: left;
   width: 70px;
-  padding-right: 15px;
+  padding-right: 10px;
 }
 .col1-text-rechts-neben-bild {
   float: left;
-  width: 237px;
+  width: 245px;
+}
+.col1-text-rechts-neben-bild-subtext {
+  font-size: 11px;
+  color: #003E70;
+}
+
+/*Aside-Bereich Ordered List*/
+ol li {
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 8px;
+  padding-bottom: 10px;
+}
+ol li a {
+  font-size: 14px;
+}
+
+.col2-bild-rechts {
+  width: 295px;
+  padding-top: 10px;
+}
+
+.col2-bild-rechts-wrapper {
+  padding-bottom: 15px;
+  border: 1px solid #121212;
 }
