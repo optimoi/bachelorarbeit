@@ -86,3 +86,31 @@ Orange ist eine gern genommene Farbe für Buttons
 Kombi bläulich mit orange
 
 So wie die SChrift luftiger wirkt als bei der chinesischen Seite, wirkt auch die Seite luftiger
+
+Links hover eher underlined oder der Hintergrund färbt sich
+
+teilwesie sind die websites noch sehr oldschool (yahoo und livedoor)
+
+Newsseiten eher schmaler, kreative breiter im COntentbereich. AUch hier wenig Bilder, Bilder eher WErbung
+
+Contentbereich teils komplett weiß, teils wird mit hellgru als Hintergrund gearbeitet für einzelne Elemente oder als Hintergrund für den Contentbereich
+
+Hier wird vermehrt auch mit Section, aside et al gearbeitet (klassischer, ordentlicher AUfbau HTML) - auch das prüfen bei allen!!!
+
+Social Media Icons!!!
+
+Footer recht simpel
+
+Mehr Abstand zwischen den einzelnen Sections und Elementen
+
+Auch checken: Wie viel Werbung wird geschaltet (Adblocker checken!)
+________________________________________________________________
+
+Russland: auf avito.ru z B 28 Anzeigen geblockt
+
+Werbeanzeigen sind sehr dominant, größer als die Contentbilder, sehr viele Anzeigen bisweilen, oben, unten vorne hinten
+Seite wirkt komplett anders ohne Werbung, aber es gibt keine Adblocker deaktivieren PFlicht
+Werbung als Headerbild
+Seiten kleben bisweilen am linken rand, rechts dafür weißraum ungenutzt
+https://news.mail.ru/ - 184 Ads geblockt - mir werden bei Deaktivierung aber keine angezeigt, kann sein, dass ich nicht in der Zielgruppe bin (Geotargeting?), deshalb sehe ich hier nicht so viel Veränderung wie da sein müsste
+es sieht aus als würde was fehlen ohne werbung, alles sieht nackt aus, teils zerstört es die HTML wenn die Werbung ausgeblendet wird
