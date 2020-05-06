@@ -76,6 +76,12 @@ nav ul li:hover {
   background-color: #666666;
 }
 
+main {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 #top-head1-wrapper {
   height: 1rem;
   font-size: 12px;
@@ -187,4 +193,10 @@ nav ul li:hover {
 #wrapper-switch {
   float:right;
   margin-top: 0.8rem;
+}
+
+/* Styles für den Mainbereich (Contentbereich)*/
+.banner-fullwidth {
+  width: 100%;
+  margin-top: 0.5rem;
 }
