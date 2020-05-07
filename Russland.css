@@ -33,11 +33,15 @@ html {
   background-color: #FFFFFF;
 	line-height:22px;
 	text-align: left;
+    height: 100%;
 }
 
 body {
   background-color:#fff;
 	display: block;
+    position: relative;
+   height: 100%;
+   margin: 0 auto;
 }
 
 
@@ -80,6 +84,13 @@ main {
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
+  margin-bottom: 2em;
+   padding-bottom:50px; /* Höhe des Footers */
+}
+
+.site {
+ height: auto;
+ min-height: 100%;
 }
 
 #top-head1-wrapper {
@@ -177,7 +188,7 @@ main {
   margin-right:1.0rem;
   padding: 0.3rem 0.7rem 0.3rem 0.6rem;
   background-color: #253a59;
-  border-color: #dbdbdb;
+  border-color: #253a59;
   border-width:1px;
   border-style: solid;
   border-radius: 6px;
@@ -199,4 +210,41 @@ main {
 .banner-fullwidth {
   width: 100%;
   margin-top: 0.5rem;
+}
+
+/*Footer Styles */
+footer {
+background-color: #272622;
+width:60%;
+height: 250px;
+font-size: 14px;
+margin-top: 30px;
+float:left;
+margin-left: 20%;
+margin-right: 20%;
+}
+
+footer ul {
+  float:left;
+  margin-right: 8rem;
+  text-align: left;
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: lighter;
+}
+
+footer a {
+  color: #FFFFFF;
+}
+
+footer ul {
+  display: inline;
+}
+
+footer ul li {
+    display: inline;
+}
+.footer {
+
+  margin-top: 2rem;
 }

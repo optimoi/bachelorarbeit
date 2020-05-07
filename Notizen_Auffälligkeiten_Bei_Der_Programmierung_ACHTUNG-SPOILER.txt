@@ -114,3 +114,37 @@ Werbung als Headerbild
 Seiten kleben bisweilen am linken rand, rechts dafür weißraum ungenutzt
 https://news.mail.ru/ - 184 Ads geblockt - mir werden bei Deaktivierung aber keine angezeigt, kann sein, dass ich nicht in der Zielgruppe bin (Geotargeting?), deshalb sehe ich hier nicht so viel Veränderung wie da sein müsste
 es sieht aus als würde was fehlen ohne werbung, alles sieht nackt aus, teils zerstört es die HTML wenn die Werbung ausgeblendet wird
+
+China und Japan Tracking checken. Werbung nicht unbedingt customised, RU positioniert für mich deutsche Werbung basierend auf meinem Suchverlauf
+Wenn die Werbung so viel vom Layout ausmacht, ist es schwierig aus einem anderen Land heraus das Webdesign als Ganzes zu bewerten. Auch ist es merkwürdig wenn zwischen russischer Schrift plötzlich deutsche Grafiken mit deutscher Schrift kommen
+
+Untersuchen: Wie ist das Verhältnis Werbun : Content (evntl anhand des Bildverhältnisses untersuchen)
+
+
+Wenig Farben, wenn nicht-weiß dann dunkelgra, blau, grün
+
+Startseite nicht so in die Länge gezogen, teils ungewohnt kurz, es gibt aber auch endlos scrollende Seiten
+auf einer Seite kommt der Werbebanner sogar vorm Logo (https://www.mk.ru/)
+
+Logo besteht oft nur aus Buchstaben
+
+Bei der Seitenstruktur (Col-Layout) gibt es kein eindeutiges Muster - breit schmal, schmal breit, Kachel, linksbündig, zentriert
+Bei UNterhaltung eher Kachellayout
+
+Dadurch dass man die Sprache nicht spricht, die Zeichen nicht lesen kann, geht man ganz anders an das Design eran, man sieht es ganz anders, vielleicht unvoreingenommener, man kann es aus neutralen <gesichtspunkten vielleichtb
+besser bewerten, aber natürllich nicht aus Sicht eines Native Speakers
+
+Logo häufig nicht in russischer Schrift
+Keine extra russischen Schriftarten, sondern in der Regel websichere wie Helvetica, Arial, sans-serif, Open Sans, Verdana - Helvetica scheint leicht zu dominieren
+Serifenlose Schriftarten, auch fürs Logo
+oben recht zurückhaltend, damit werbung mehr auffällt?
+
+Wie sehen die UNterseiten aus im  Verhältnis zur Startseite
+
+Seite linksbündig teiweise mit Platz rechts für Advertisment Film Einblendung - Es kommt einem wirklich so vor als sei die Struktur der Seite auf Werbung ausgerichtet, von Werbun teilweise bestimmt
+
+Zum Footer vorzudringen oft zunmöglich weil sich die Seite nach unten hin immer weiter aufbaut, es gibt scheinbar kein Ende
+
+teils gibt es gar keinen Footer
+
+Social Media eher im Footer, auch Hineis auf Appstore Google und Apple
