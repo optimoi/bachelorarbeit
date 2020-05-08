@@ -179,6 +179,11 @@ line-height: 19px;
   border-width:1px;
   border-style: solid;
   border-radius: 6px;
+  margin-top: 3px;
+}
+
+#switch:hover {
+  cursor: pointer;
 }
 
 .floatright {
@@ -190,7 +195,7 @@ line-height: 19px;
 }
 #wrapper-switch {
   float:right;
-  margin-top: 0.8rem;
+  margin-top: 15px;
 }
 
 /* Styles für den Mainbereich (Contentbereich)*/
@@ -199,7 +204,7 @@ line-height: 19px;
   margin-top: 1rem;
 }
 
-.banner-top {
+#banner-top {
   width: 1145px;
   padding: 5px;
   margin-left: 11px;
