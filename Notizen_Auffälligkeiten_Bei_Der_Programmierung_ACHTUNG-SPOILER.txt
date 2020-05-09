@@ -131,7 +131,7 @@ Logo besteht oft nur aus Buchstaben
 Bei der Seitenstruktur (Col-Layout) gibt es kein eindeutiges Muster - breit schmal, schmal breit, Kachel, linksbündig, zentriert
 Bei UNterhaltung eher Kachellayout
 
-Dadurch dass man die Sprache nicht spricht, die Zeichen nicht lesen kann, geht man ganz anders an das Design eran, man sieht es ganz anders, vielleicht unvoreingenommener, man kann es aus neutralen <gesichtspunkten vielleichtb
+Dadurch dass man die Sprache nicht   spricht, die Zeichen nicht lesen kann, geht man ganz anders an das Design eran, man sieht es ganz anders, vielleicht unvoreingenommener, man kann es aus neutralen <gesichtspunkten vielleichtb
 besser bewerten, aber natürllich nicht aus Sicht eines Native Speakers
 
 Logo häufig nicht in russischer Schrift
@@ -148,3 +148,6 @@ Zum Footer vorzudringen oft zunmöglich weil sich die Seite nach unten hin immer
 teils gibt es gar keinen Footer
 
 Social Media eher im Footer, auch Hineis auf Appstore Google und Apple
+
+
+Links werden kaum gekennzeichnet, auch nicht wenn man drüber hovert (außer durch den Cursor)
