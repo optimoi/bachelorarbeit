@@ -151,25 +151,109 @@ header {
 /* Styles 4 Main Content */
 
 main {
-	background-color:#111111;
+	background-color:#121212;
 	height: 100%;
-	padding-bottom: 100px;
+	padding-bottom: 900px;
+	padding-top: 15px;
 }
+
 #main {
   width: 1200px;
   margin: auto;
-	background-color:#121212;
+	background-color:#FFFFFF;
+
 }
 
-.col {
-  width: 400px;
+/* Cols 1 und 3 Größen - Breite 350 Margin 25, insgesamt 750*/
+.col1 {
+  width: 320px;
   float: left;
+	margin-right: 5px;
+	padding:10px;
+	background-color: #FFFFFF;
 }
 
-.main-img-max {
-  width: 300px;
-  margin-top: 35px;
-  margin-bottom: 35px;
+.headline {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 34px;
+}
+
+.col3 {
+  width: 320px;
+  float: left;
+	margin-left: 5px;
+	padding: 10px;
+	background-color: #FFFFFF;
+}
+/* Col2 450px*/
+.col2 {
+	width: 480px;
+	background-color: #FFFFFF;
+	float: left;
+	padding: 10px;
+}
+
+.main-img-col2 {
+  width: 430px;
+	margin-left: 25px;
+	padding-top: 15px;
+  margin-bottom: 20px;
+	border: 0px;
+}
+
+.col2-text {
+		margin-left: 25px;
+		margin-top: 15px;
+		padding-right: 15px;
+		padding-bottom: 15px;
+}
+
+article a {
+
+	color: #121212;
+}
+
+article a:hover {
+		text-decoration: underline;
+		color: #121212;
+}
+
+.col1-3-pic {
+	width: 290px;
+}
+
+.col1-3-pic-tall-border {
+	margin-left: 15px;
+	padding: 15px 0px 15px 10px;
+	border: 1px solid #dedede;
+		margin-right:15px;
+
+
+}
+
+.col1-3-pic-tall {
+	width: 270px;
+}
+
+.col1-3-pic-abstand {
+	padding: 10px 10px 10px 15px;
+
+}
+
+h1 {
+	font-size: 26px;
+	font-weight: bold;
+	line-height: 26px;
+		margin-left: 25px;
+}
+
+h3 {
+	text-transform: uppercase;
+	color: #555555;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-left: 25px;
 }
 
 /*Footerstyles */
