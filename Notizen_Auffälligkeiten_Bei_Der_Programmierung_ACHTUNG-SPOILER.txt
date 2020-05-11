@@ -151,3 +151,20 @@ Social Media eher im Footer, auch Hineis auf Appstore Google und Apple
 
 
 Links werden kaum gekennzeichnet, auch nicht wenn man drüber hovert (außer durch den Cursor)
+
+India
+
+
+2-3 Cols die durchbrochen werden (Col Layout auch als Untersuchungsgegenstand wenn Zeit sein sollte)
+
+Der erste WErbebanner teilweise über dem Logobereich, also der eigentlichen Website oder auch in Line mit dem Logo
+
+Nav mit Logoin zeile oder knapp daruntr, HeadBereich recht schmal
+
+logo reduziert, im grunde buchstaben nrúr kleinbuchstaben ider nur großbuchstaben
+
+Footer  - teilwese erreicht man ihn nicht weil die Seite eqweig scrollt, teiwleise gibt es keinen, teils ist er sehr umfangreich
+
+Auch bei INdien bewegt sich irgendwo was an Werbung oder Videos oder Popups, aber wesentllich dezenter als bei zb China
+
+es gibt einen Bereich für Hindi News

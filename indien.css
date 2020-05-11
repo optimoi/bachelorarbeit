@@ -72,7 +72,7 @@ nav a:hover {
 }
 
 a:hover {
-  color: #1579D7;
+  color: #AC0600;
 }
 #active-lang {
   font-weight: bolder
@@ -81,7 +81,7 @@ a:hover {
 /*Logo und Menü */
 header {
   background-color:#111111;
-  height: 90px;
+  height: 100px;
 }
 
 .small-nav {
@@ -101,7 +101,6 @@ header {
 }
 
 .top-head-wrapper {
-  height: 120px;
   width: 1200px;
   margin: auto;
 }
@@ -119,17 +118,17 @@ header {
 }
 /*Logo */
 #logo {
-    width: 240px;
+    width: 170px;
 }
 #logo-wrapper {
   float: left;
-  padding-top:25px;
+  padding-top:15px;
 }
 
 /* Navigation */
 #nav-wrapper {
   height: 18px;
-  padding-top: 30px;
+  padding-top: 40px;
   margin-left: 70px;
   float: left;
 
@@ -140,7 +139,7 @@ header {
   width: 180px;
   height: 36px;
   margin-left: 20px;
-  margin-top:30px;
+  margin-top:40px;
 }
 
 .social-img {
@@ -151,7 +150,7 @@ header {
 /* Styles 4 Main Content */
 
 main {
-	background-color:#121212;
+	background-color:#efefef;
 	height: 100%;
 	padding-bottom: 900px;
 	padding-top: 15px;
@@ -166,17 +165,19 @@ main {
 
 /* Cols 1 und 3 Größen - Breite 350 Margin 25, insgesamt 750*/
 .col1 {
-  width: 320px;
+  width: 300px;
   float: left;
 	margin-right: 5px;
-	padding:10px;
+	padding:25px 25px 45px 25px;
 	background-color: #FFFFFF;
 }
 
-.headline {
+h2 {
 	font-size: 18px;
 	font-weight: bold;
 	line-height: 34px;
+	margin-bottom: 15px;
+	color: #AC0600;
 }
 
 .col3 {
@@ -227,9 +228,21 @@ article a:hover {
 	margin-left: 15px;
 	padding: 15px 0px 15px 10px;
 	border: 1px solid #dedede;
-		margin-right:15px;
+	margin-right:15px;
 
+}
 
+.col1-pic-text-img {
+	float: left;
+	width: 100px;
+	margin-right: 10px;
+}
+
+.col1-pic-text-news {
+	font-size: 14px;
+	line-height:15px;
+
+	font-weight: 500;
 }
 
 .col1-3-pic-tall {
@@ -240,12 +253,37 @@ article a:hover {
 	padding: 10px 10px 10px 15px;
 
 }
+.col1-text-news {
+	font-size: 14px;
+	line-height:17px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #efefef;
+	font-weight: normal;
+}
+
+.col1-article-abstand-unten {
+	margin-bottom: 35px;
+
+}
+
+.col1-text-abstand-oben {
+	padding-top: 15px;
+
+}
+
+.col1-img {
+	font-size: 14px;
+	line-height:17px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #efefef;
+	font-weight: normal;
+}
 
 h1 {
-	font-size: 26px;
+	font-size: 21px;
 	font-weight: bold;
-	line-height: 26px;
-		margin-left: 25px;
+	line-height: 22px;
+	padding-left: 25px;
 }
 
 h3 {
