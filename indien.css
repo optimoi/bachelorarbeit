@@ -19,7 +19,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 	-moz-user-select: none;
   -webkit-user-select: none;
-  font-family: Roboto,sans-serif;
+  font-family: sans-serif;
 
 }
 /* HTML5 display-role reset for older browsers */
@@ -152,7 +152,7 @@ header {
 main {
 	background-color:#efefef;
 	height: 100%;
-	padding-bottom: 900px;
+	padding-bottom: 2100px;
 	padding-top: 15px;
 }
 
@@ -165,10 +165,20 @@ main {
 
 /* Cols 1 und 3 Größen - Breite 350 Margin 25, insgesamt 750*/
 .col1 {
-  width: 300px;
+  width: 260px;
   float: left;
-	margin-right: 5px;
-	padding:25px 25px 45px 25px;
+	height: 1150px;
+	margin-right: 15px;
+	padding:20px 25px 0px 25px;
+	background-color: #FFFFFF;
+}
+
+.col1-2 {
+  width: 260px;
+  float: left;
+	height: 520px;
+	margin-right: 15px;
+	padding:20px 25px 0px 25px;
 	background-color: #FFFFFF;
 }
 
@@ -181,22 +191,74 @@ h2 {
 }
 
 .col3 {
-  width: 320px;
+  width: 260px;
   float: left;
-	margin-left: 5px;
+		height: 1150px;
+	margin-left: 15px;
 	padding: 10px;
+	margin-bottom: 15px;
 	background-color: #FFFFFF;
+
+}
+.col3-2 {
+  width: 260px;
+  float: left;
+		height: 520px;
+	margin-left: 15px;
+	padding: 10px;
+	margin-bottom: 15px;
+	background-color: #FFFFFF;
+
 }
 /* Col2 450px*/
 .col2 {
-	width: 480px;
+	width: 520px;
+		height: 1150px;
 	background-color: #FFFFFF;
 	float: left;
-	padding: 10px;
+	padding: 20px 10px 0px 10px;
+}
+.col2-2 {
+	width: 520px;
+	height: 520px;
+	float: left;
+	padding: 20px 0px 0px 20px;
+}
+
+.col1col2col3 {
+background-color: #FFFFFF;
+  float: left;
+	padding-left:25px;
+padding-top:25px;
+padding-bottom: 25px;
+margin-bottom: 15px;
+
+}
+.col1col2col3-artikel {
+	width: 163px;
+	float: left;
+	margin-right: 26px;
+
+}
+
+
+.col1col2col3-artikel-text {
+	font-size: 14px;
+	line-height: 15px;
+	padding-left: 4px;
+	padding-right: 4px;
+
+
+}
+
+
+.col1col2col3-artikel-img {
+	width: 162.5px;
+	padding-bottom: 5px;
 }
 
 .main-img-col2 {
-  width: 430px;
+  width: 460px;
 	margin-left: 25px;
 	padding-top: 15px;
   margin-bottom: 20px;
@@ -206,8 +268,21 @@ h2 {
 .col2-text {
 		margin-left: 25px;
 		margin-top: 15px;
-		padding-right: 15px;
-		padding-bottom: 15px;
+		padding-right: 35px;
+		padding-bottom: 20px;
+}
+
+.col2-4-pics-img {
+	width: 225px;
+	height: 225px;
+	float: left;
+	padding-top: 15px;
+	padding-left: 15px;
+
+}
+
+.text-on-img {
+
 }
 
 article a {
@@ -221,15 +296,22 @@ article a:hover {
 }
 
 .col1-3-pic {
-	width: 290px;
+	width: 250px;
 }
 
 .col1-3-pic-tall-border {
-	margin-left: 15px;
-	padding: 15px 0px 15px 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 15px 0px 15px 9px;
 	border: 1px solid #dedede;
-	margin-right:15px;
+	margin-bottom: 25px;
 
+
+}
+.col3-abstand-korr {
+	margin-left: 5px;
+	padding-top: 20px;
+	padding-bottom: 2px;
 }
 
 .col1-pic-text-img {
@@ -239,20 +321,31 @@ article a:hover {
 }
 
 .col1-pic-text-news {
-	font-size: 14px;
-	line-height:15px;
-
+	font-size: 13px;
+	line-height:13px;
 	font-weight: 500;
+
+}
+.col1-pic-text-news-hindi {
+	font-size: 14px;
+	line-height:14px;
+	font-weight: 500;
+
 }
 
 .col1-3-pic-tall {
-	width: 270px;
+	width: 230px;
 }
 
 .col1-3-pic-abstand {
-	padding: 10px 10px 10px 15px;
+	padding: 30px 5px 30px 5px;
 
 }
+.col1-3-pic-abstand-last {
+	padding: 0px 5px 95px 5px;
+}
+
+
 .col1-text-news {
 	font-size: 14px;
 	line-height:17px;
@@ -262,7 +355,11 @@ article a:hover {
 }
 
 .col1-article-abstand-unten {
-	margin-bottom: 35px;
+	margin-bottom: 38px;
+
+}
+.col1-article-abstand-unten-col1 {
+	margin-bottom: 44px;
 
 }
 
@@ -290,8 +387,14 @@ h3 {
 	text-transform: uppercase;
 	color: #555555;
 	font-size: 14px;
-	padding-top: 15px;
+	padding-top:25px;
 	padding-left: 25px;
+}
+
+#bgbild4 {
+	background-image: url("img/ind/in_square_ad.jpg");
+	background-size: 225px;
+	margin: 15px;
 }
 
 /*Footerstyles */
