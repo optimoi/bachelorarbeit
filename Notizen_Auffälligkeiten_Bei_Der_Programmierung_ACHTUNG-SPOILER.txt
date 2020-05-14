@@ -167,4 +167,53 @@ Footer  - teilwese erreicht man ihn nicht weil die Seite eqweig scrollt, teiwlei
 
 Auch bei INdien bewegt sich irgendwo was an Werbung oder Videos oder Popups, aber wesentllich dezenter als bei zb China
 
-es gibt einen Bereich für Hindi News
+es gibt einen Bereich für Hindi News (anerde Schrift)
+
+
+_________________________________________________________________________________________
+
+Islam
+
+Fake News siehe Screenshots im Über-Äh-Ordner (Merkel)
+
+
+E-Commerce Seiten sind in der Regel in allen LÄndern auf den ersten Blick recht ähnlich - Funktionalität,das Produkt steht im Vordergrund
+Unterschied darin, wie clean die Darstellung ist, (Bangladesh https://evaly.com.bd/ zum Beispiel recht kleine Abbildungen, zurückhaltende Gestaltung, viel WEißraum wenig Farben
+
+Browserchecking (DDOS Prevention) vor Betreten der Website bei Seiten aus dem islamischnen Raum häufig (gefühlt höufiger als bei Russischen, China, Japan, Indien)
+
+
+Bangladesh: rot sehr gern genommene Farbe (Flagge ist grün mit rotem Punkt -  Die rote Scheibe symbolisiert dabei die Sonne, die über Bengalen aufgeht. Ebenso steht die Farbe Rot für das Blut der Opfer im Kampf um die Unabhängigkeit des Landes.)
+
+
+Wenn man sich die Seite von Google übersetzen lässt, dann wird der Eindruck ein anderer. Man sieht die Seite ganz anders. Und das nicht nur wenn die originäre Schrift nicht lesbar ist, sondern auch wenn es einfach die Sprache ist, die man nicht versteht.
+
+Es gibt keine Abschnitte Text ohne Bild, Bilder sind sehr dominant
+
+wirkt alles etwas konfuser, weniger geordnet, wenig Weißräume, Struktur nicht so komplex, regelmäßiger, nicht so viele unterschiedliche Anordnungen
+
+NOTIZ: Favicons einfügen
+
+Bangladesh:  Menüzele reicht voll gepackt, entweder Menü oder WErbung neben Logo
+irgendwas bewegt sich (gifs)
+Social Icons
+schmale Menüzeile über Logozeile
+auch mal nur texte
+
+_____________________________________-
+Senegal
+
+oben viel um das Logo rum, recht reduziertes Menü (Anzahl), WErbebanner im oberen Bereich, großes Bild im Einstieg
+- Text auf Bildern (HTML/CSS) häufiger
+- es wird sehr viel mit Bildern, speziell Menschen und Gesichtern gearbeitet
+- weiße Löcher in der Seite, teils hört ein Col einfach auf und fängt später wieder an, weiter unten wird die Strutur anders, es wirkt teils so als hätte man versucht so viel wie mögl unten noch auf die seite zu packen
+
+_________________________________________________________________________________________
+
+Libyen
+
+Viel aufgeräumter
+arabisch von rechts nach links
+Logo recht rgroß
+man kann das Deisgn kaum erfassen wenn man es sich nicht übersetzen lässt, es scheinen einfach leere elemente zu sein, von denen man nicht weiß was die da machen#
+aufgeräumter in Sachen Struktur, auch mehr Raum für Elemente - vermutlich weil die Schrift sehr detailreich ist und schwieriger zu erkennen wenn man klein schreibt und nah beieinander (Einschätzung einer nicht Native Readerin)
