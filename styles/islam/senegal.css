@@ -1,0 +1,396 @@
+/* HTML5 display-role reset for older browsers */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, hr,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, main
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  font-family: sans-serif;
+}
+
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, menu, nav, section, main {
+  display: block;
+}
+
+/**
+ * Box model
+ */
+html {
+  box-sizing: border-box;
+}
+
+
+nav {
+  height: 50px;
+}
+
+nav ul li {
+  display:inline;
+  text-align: center;
+  font-size: 18px;
+  background-color: #E50300;
+  padding: 10px 40px 10px 40px;
+  float: left;
+  border-right: 1px solid #dedede;
+
+}
+
+nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background-color: #00CACA;
+}
+
+h1 {
+  height: 20px;
+  background-color: #E50300;
+  padding-top:5px;
+  padding-left: 8px;
+  width: 770px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-transform: uppercase;
+
+}
+
+h2 {
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: bold;
+  padding-bottom: 9px;
+}
+/* Überschrift Footer */
+h4 {
+  height: 25px;
+  background-color: #E50300;
+  padding-top:15px;
+  padding-left: 8px;
+  width: 1092px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-transform: uppercase;
+
+}
+
+main {
+  margin-bottom: 25px;
+  float: left;
+}
+
+.contentwidth {
+  width: 1100px;
+  margin: auto;
+  height: 100%;
+}
+
+.logo-bereich {
+  padding-top: 20px;
+  height: 80px;
+  margin-bottom: 55px;
+}
+
+.logo-img {
+  width: 250px;
+  float: left;
+  margin-right: 110px;
+}
+
+.logo-bereich-werbebanner {
+  width: 650px;
+  float: left;
+  padding-right: 90px;
+  padding-top: 15px;
+}
+
+.col1 {
+  width: 400px;
+    float: left;
+}
+.col2 {
+  width: 400px;
+  float: left;
+  padding: 40px 20px 20px 20px;
+}
+.col3 {
+  width:285px;
+  margin-top: 15px;
+  margin-left: 10px;
+  float: left;
+}
+.col1col2 {
+  width: 800px;
+  float: left;
+
+}
+
+.topbanner-img {
+  height: 440px;
+  width: 800px;
+  margin-top: 15px;
+  background-image: url("../../img/isl/sen/topbanner_senegal_politician.jpg");
+  background-repeat: no-repeat;
+}
+
+.topbanner-spacer {
+  height: 320px;
+}
+
+.topbanner-farbverlauf {
+  height: 120px;
+  background: linear-gradient( rgba(0,202,202,0), rgba(0,202,202,1));
+  border-bottom: 9px solid #00CACA;
+}
+.topbanner-text {
+  padding-top: 65px;
+  padding-left: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+/*Bild text neben Top Banner in Col 3 (2) im Einstiegsbereich */
+
+.bild-text-reihe-small-img {
+  margin-left: 15px;
+  width: 70px;
+  height: 60px;
+  float: left;
+  margin-right: 5px;
+}
+
+.bild-text-reihe-small-text {
+  width: 290px;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: bold;
+}
+
+.abstand-top {
+  margin-top: 15px;
+}
+
+.abstand-top-col3 {
+    margin-top: 40px;
+    height: 300px;
+    padding-top: 35px;
+}
+
+
+
+/* Col 1 und 2 - 3 Bilder nebeneinander mut Text  darunter */
+.col1col2-dreier {
+  float: left;
+  width: 250px;
+  height: 300px;
+  margin-right: 15px;
+  margin-top: 25px;
+  padding-bottom: 15px;
+
+}
+
+
+.dreier-img {
+  width: 250px;
+}
+
+.dreier-text {
+  font-size: 19px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.col1col2-werbebanner {
+  width: 700px;
+  margin-left: auto;
+  margin-top: 25px;
+  border: 1px solid #999999;
+
+}
+.col3-bild-ueber-text-img {
+  width: 290px;
+  padding-top: 20px;
+
+}
+
+.col3-img1 {
+  background-image: url("../../img/isl/sen/col3-pic-1.jpg");
+  background-repeat: no-repeat;
+  width: 260px;
+  height: 400px;
+  margin-left: 5px;
+
+}
+
+.col3-spacer {
+  height: 125px;
+}
+
+.col3-farbverlauf {
+  height: 130px;
+  background: linear-gradient( rgba(0,202,202,0), rgba(0,202,202,1));
+  border-bottom: 9px solid #00CACA;
+}
+
+.col3-verlauf-text {
+  padding-top: 75px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.col3-hg {
+  background-color: #00CACA;
+  padding-top: 15px;
+  height: 300px;
+}
+
+.col3-no-hg {
+  padding-top: 15px;
+  height: 300px;
+}
+
+.col3-werbebanner {
+  width: 270px;
+  margin-left: auto;
+  margin-top: 265px;
+  padding: 8px 6px 12px 15px;
+  border: 1px solid #999999;
+}
+
+/* Col 1 Bild neben Text */
+.col1-bild-text {
+  margin-top: 10px;
+  padding-left: 10px;
+  height: 160px;
+  width: 350px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.col1-bild-text-img {
+  width: 100px;
+  float: left;
+  margin-right: 10px;
+}
+
+.col1-bild-text-text {
+  width: 350px;
+  font-size: 13px;
+  line-height: 15px;
+
+}
+
+/* Col2 Text über Bild*/
+
+.col2-bild-ueber-text-text {
+    padding: 25px 19px 15px 0px;
+    width: 360px;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 22px;
+}
+
+.col2-bild-ueber-text-img {
+  width: 360px;
+  border:  1px solid #666666;
+}
+
+/*Footerstyles */
+.footer {
+  width: 1100px;
+  margin: auto;
+  padding-bottom: 30px;
+  float: left;
+  background-color: #444444;
+  font-size: 13px;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding-bottom: 8px;
+  width: 150px;
+  height: 100px;
+
+}
+#footer-text {
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 85px;
+  margin-right: 25px;
+  line-height: 22px;
+  float: left;
+  color: #FFFFFF;
+}
+.floatleft {
+    float: left;
+}
+.floatright {
+  float: right;
+}
+
+.footer-social {
+  width: 240px;
+  float: left;
+  margin-left: 45px;
+  margin-top: 35px;
+}
+
+
+.footer-social-icons {
+  margin-left: 45px;
+}
+
+
+.footer-social-icons img {
+  width: 35px;
+  padding: 3px;
+}
+
+#footer-suche {
+      margin-top: 38px;
+      margin-right: 35px;
+      float: right;
+      background-color: #111111;
+      padding: 4px 16px 9px 8px;
+}
+
+#suche {
+  height: 34px;
+  width:170px;
+    float: left;
+}
+
+#search_lupe {
+  margin-left: 8px;
+  height: 32px;
+
+  border-style: solid;
+  border-color: #dbdbdb;
+  border-left: 0px;
+    float: left;
+
+}

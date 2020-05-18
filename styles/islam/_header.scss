@@ -1,1 +1,23 @@
+$contentwidth: 1200px;
+$logowith: 300px;
+$logo-bereich-werbebanner: 750px;
 
+
+
+.logo-bereich {
+	width: $contentwidth;
+	margin: auto;
+
+}
+
+.logo-img {
+	width: $logowith;
+	float: left;
+	margin-right: 100px;
+}
+
+.logo-bereich-werbebanner {
+	width: $logo-bereich-werbebanner;
+	float: left;
+	margin-right: 50px;
+}

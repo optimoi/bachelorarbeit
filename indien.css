@@ -326,6 +326,10 @@ article a:hover {
 	font-weight: 500;
 
 }
+
+.article-lastbox {
+	padding-bottom:45px;
+}
 .col1-pic-text-news-hindi {
 	font-size: 14px;
 	line-height:14px;

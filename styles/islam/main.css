@@ -1,3 +1,4 @@
+/* HTML5 display-role reset for older browsers */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -53,4 +54,21 @@ a {
 }
 a:hover {
   color: #121212;
+}
+
+.logo-bereich {
+  width: 1200px;
+  margin: auto;
+}
+
+.logo-img {
+  width: 300px;
+  float: left;
+  margin-right: 100px;
+}
+
+.logo-bereich-werbebanner {
+  width: 750px;
+  float: left;
+  margin-right: 50px;
 }
