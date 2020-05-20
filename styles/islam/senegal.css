@@ -107,6 +107,8 @@ main {
   height: 100%;
 }
 
+/*Logobereich*/
+
 .logo-bereich {
   padding-top: 20px;
   height: 80px;
@@ -146,7 +148,7 @@ main {
   float: left;
 
 }
-
+/*Topbanner mit Farbverlauf und Text auf Bild */
 .topbanner-img {
   height: 440px;
   width: 800px;
@@ -360,17 +362,17 @@ main {
 }
 
 
-.footer-social-icons {
+.social-icons {
   margin-left: 45px;
 }
 
 
-.footer-social-icons img {
+.social-icons img {
   width: 35px;
   padding: 3px;
 }
 
-#footer-suche {
+#suche-wrapper {
       margin-top: 38px;
       margin-right: 35px;
       float: right;

@@ -1,0 +1,534 @@
+/* HTML5 display-role reset for older browsers */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, hr,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, main
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 18px;
+  line-height: 19px;
+  color: #000000;
+  font: inherit;
+  vertical-align: baseline;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  font-family: SolaimanLipi, sans-serif;
+}
+
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, menu, nav, section, main {
+  display: block;
+}
+
+/**
+ * Box model
+ */
+html {
+  box-sizing: border-box;
+}
+
+nav {
+  height: 50px;
+  float: left
+}
+
+ nav ul li {
+  display:inline;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px 25px  0px 0px;
+  float: left;
+
+}
+
+ ul li a {
+  color: #222222;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: #CC0202;
+}
+
+h1 {
+  height: 20px;
+  background-color: #E50300;
+  padding-top:5px;
+  padding-left: 8px;
+  width: 770px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-transform: uppercase;
+
+}
+
+h2 {
+  font-size: 25px;
+  line-height: 17px;
+  font-weight: bold;
+  padding-bottom: 9px;
+}
+
+h3 {
+  font-size: 22px;
+    border-bottom:  2px solid  #E50300;
+    color: #333333;
+  line-height: 30px;
+  width: 388px;
+  margin-bottom: 20px;
+}
+/* Überschrift Footer */
+h4 {
+  height: 25px;
+  background-color: #E50300;
+  padding-top:15px;
+  padding-left: 8px;
+  width: 1092px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-transform: uppercase;
+
+}
+
+
+main {
+  margin-bottom: 25px;
+  float: left;
+}
+
+/*HELPER-KLASSEN*/
+.fontbold {
+  font-weight: bold;
+}
+.blue {
+  background-color: #1163A6;
+  color: #1163A6;
+}
+.onbluebg a {
+  color: #FFFFFF;
+}
+.onbluebg a:hover {
+  color: #FFFFFF;
+}
+
+.floatleft {
+  float: left;
+}
+
+.borderbottom {
+
+  border-bottom:  1px solid #cccccc;
+}
+
+.margintop {
+  margin-top: 12px;
+}
+
+.contentwidth {
+  width: 1100px;
+  margin: auto;
+  height: 2040px;
+
+}
+
+.social-distance {
+  margin-left: 145px;
+}
+
+.social-icons {
+  height: 20px;
+}
+
+.social-icons img {
+  width: 20px;
+
+}
+/* Suche */
+#suche-wrapper {
+  border-right: 0px;
+
+}
+
+#suche-wrapper:hover {
+    background-color: #FFFFFF;
+}
+
+#suche {
+  height: 27px;
+  width:120px;
+    float: left;
+}
+
+#search_lupe {
+  height: 23px;
+  margin-left:5px;
+  padding:2px;
+  background-color: #1163A6;
+}
+
+/*Logobereich*/
+
+#logo-bereich {
+  padding-top: 10px;
+  height: 80px;
+  margin-bottom: 45px;
+}
+
+#logo-img {
+  width: 200px;
+float: left;
+  margin-right: 110px;
+}
+
+#logo-bereich-werbebanner {
+  width: 728px;
+  margin-left: 180px;
+  padding-right: 90px;
+  padding-top: 15px;
+}
+
+.col1-werbebanner {
+  width: 550px;
+  padding: 35px 25px 0px 15px;
+
+}
+
+/*Main-Navigation */
+
+.menue {
+  height: 40px;
+  margin-top: 25px;
+  float: left;
+
+}
+.menue ul li {
+ display:inline;
+ text-align: center;
+ font-size: 15px;
+ padding: 0px 10px  0px 10px;
+ float: left;
+}
+
+.menue-border {
+   border-right: 1px solid #dedede;
+}
+
+.linie {
+   border-bottom: 2px solid #dedede;
+}
+
+.col1 {
+  width: 550px;
+  float: left;
+  margin-top: 25px;
+}
+.col2 {
+  width: 245px;
+  float: left;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+
+}
+.col3 {
+  width: 245px;
+  float: left;
+}
+}
+.col3-b {
+  float: left;
+
+}
+.col1col2 {
+  width: 705px;
+  margin-top: 25px;
+  margin-right: 25px;
+  float: left;
+
+}
+
+/* Col 1 Topbanner mit Text auf Farbe auf Bild */
+.topbanner-img {
+  height: 395px;
+  width: 550px;
+  background-image: url("../../img/isl/ban/topbanner.jpg");
+  background-repeat: no-repeat;
+}
+
+.topbanner-spacer {
+  height: 315px;
+}
+
+.topbanner-farbverlauf {
+  height: 80px;
+  background-color: #222222;
+  opacity: 0.8;
+}
+.topbanner-text {
+  padding: 10px 20px 0px 20px;
+  font-size: 23px;
+  color: #FFFFFF;
+}
+
+/* Col 2 Bild mit Textunterschrift neben Main Pic */
+.col2-pic {
+   width: 245px;
+}
+
+.col2-pic-text {
+  font-size: 16px;
+  padding: 5px 10px 5px 0px;
+  margin-bottom: 15px;
+}
+
+.col3-pic {
+    width: 245px;
+    margin-bottom: 25px;
+}
+
+/* Scrollbar rechts */
+.scrollbar {
+    width: 245px;
+    padding-top: 25px;
+    margin-bottom: 45px;
+    float: left;
+   color: #333333;
+   height:420px;
+   overflow: scroll;
+
+}
+
+.scrollbar-button {
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 25px;
+  float: left;
+  border: 1px solid #dedede;
+}
+.scrollbar-button:hover {
+  cursor: pointer;
+}
+
+#scrollbar-button-1 {
+  background-color: #1163A6;
+  color: #FFFFFF;
+}
+
+#scrollbar-button-2 {
+  background-color: #FFFFFF;
+  color: #333333;
+}
+#scrollbar-1 {
+  display: block;
+}
+#scrollbar-2 {
+  display: none;
+}
+
+.scrollbar ul li {
+  display: block;
+  padding-top: 15px;
+  line-height: 15px;
+  font-size: 14px;
+}
+
+.scrollbar-red {
+  color: #D70000;
+}
+
+/* Col 1 und 2 - 3 Bilder nebeneinander mut Text  darunter */
+.dreier {
+  float: left;
+  width: 260px;
+  height: 150px;
+  margin-top: 45px;
+  padding-bottom: 15px;
+}
+
+.dreier-col2 {
+  margin-top: 146px;
+    margin-left: -12px;
+}
+.dreier-col2-2 {
+      margin-left: -12px;
+}
+
+.dreier-text {
+  font-size: 14px;
+  line-height: 15px;
+  padding: 4px 10px 25px 10px;
+}
+
+.dreier-img {
+  width: 260px;
+  height: 150px;
+}
+.dreier-zwei {
+  margin-left:22px;
+}
+.dreier-zwei-unten {
+  margin-left:20px;
+}
+.dreier-unten-img {
+  width: 260px;
+  height: 190px;
+}
+.dreier-unten {
+  float: left;
+  width: 260px;
+  height: 150px;
+  padding-bottom: 15px;
+}
+
+.col1-2 {
+    width: 422px;
+
+
+}
+.col1-2-bild-ueber-text  {
+    width: 420px;
+    margin-right: 2px;
+
+}
+
+
+.col1-2-bild-ueber-text-img {
+  width: 400px;
+  height: 200px;
+
+
+
+}
+
+.col1-2-bild-ueber-text-text {
+  font-size: 17px;
+  line-height: 15px;
+  padding: 10px 10px 0px 0px;
+  width: 410px;
+}
+
+.col1-2-bild-neben-text  {
+    width: 385px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    float: left;
+}
+.col1-2-bild-neben-text  {
+    width: 385px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    float: left;
+}
+
+
+.col1-2-bild-neben-text-img {
+  width: 105px;
+  height: 60px;
+  margin-top: 5px;
+  float: left;
+
+
+}
+
+.col1-2-bild-neben-text-text {
+  font-size: 15px;
+  line-height: 19px;
+  padding: 10px 0px 15px 10px;
+  width: 233px;
+    float: left;
+}
+
+/* Col 1 Topbanner mit Text auf Farbe auf Bild */
+.bigbanner-img {
+  height: 300px;
+  margin-left: 20px;
+  width: 470px;
+
+}
+
+h5 {
+  padding: 10px 20px 0px 0px;
+  font-size: 23px;
+  width: 350px;
+   margin-left: 20px;
+  line-height: 23px;
+
+}
+.contentwidth2 {
+  width: 1100px;
+  margin: auto;
+  height: 540px;
+  background-color: #C3DAFF;
+
+}
+.contentwidth3 {
+  width: 1100px;
+  margin: auto;
+  height: 280px;
+  padding-top: 35px;
+
+}
+.bigbanner-descr {
+  font-size: 14px;
+  line-height: 15px;
+  width: 470px;
+  padding: 10px 0px 0px 0px;
+  margin-left: 20px;
+
+}
+.col1col2-pic-small {
+   width: 185px;
+   height: 150px;
+   margin-left: 30px;
+}
+.col1col2-pic-small-text {
+  width: 185px;
+  font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+       margin-left: 30px;
+}
+
+.col3-bild-neben-text  {
+    width: 365px;
+    padding-bottom: 10px;
+    float: left;
+}
+
+
+.col3-bild-neben-text-img {
+  width: 105px;
+  height: 60px;
+  margin-left: 5px;
+  margin-top: 25px;
+  float: left;
+
+
+}
+
+.col3-bild-neben-text-text {
+  font-size: 15px;
+  line-height: 19px;
+  margin-left:8px;
+    margin-top: 25px;
+  padding: 0px 0px 15px 0px;
+  width: 230px;
+  float: left;
+}
