@@ -64,16 +64,9 @@ ul li a:hover {
 }
 
 h1 {
-  height: 20px;
-  background-color: #E50300;
-  padding-top:5px;
-  padding-left: 8px;
-  width: 770px;
-  font-size: 16px;
-  font-weight: bold;
+  padding: 5px 20px 0px 20px;
+  font-size: 23px;
   color: #FFFFFF;
-  text-transform: uppercase;
-
 }
 
 h2 {
@@ -108,7 +101,15 @@ h4 {
 
 main {
   margin-bottom: 25px;
-  float: left;
+
+}
+
+article a  {
+  text-decoration: none;
+}
+
+article a div:hover {
+    color: #CC0202;
 }
 
 /*HELPER-KLASSEN*/
@@ -136,13 +137,27 @@ main {
 }
 
 .margintop {
-  margin-top: 12px;
+  margin-top: 25px;
+}
+
+.margintop3 {
+  margin-top: 10px;
+}
+
+.margintop2 {
+  margin-top: 65px;
 }
 
 .contentwidth {
   width: 1100px;
   margin: auto;
-  height: 2040px;
+  height: 1990px;
+
+}
+.contentwidth-header {
+  width: 1100px;
+  margin: auto;
+  height: 150px;
 
 }
 
@@ -195,17 +210,11 @@ float: left;
   margin-right: 110px;
 }
 
-#logo-bereich-werbebanner {
+.werbebanner {
   width: 728px;
   margin-left: 180px;
   padding-right: 90px;
-  padding-top: 15px;
-}
-
-.col1-werbebanner {
-  width: 550px;
-  padding: 35px 25px 0px 15px;
-
+  padding-top: 35px;
 }
 
 /*Main-Navigation */
@@ -262,12 +271,22 @@ float: left;
 
 }
 
+.col1col2-hr {
+  width: 705px;
+  margin-top: 25px;
+  margin-right: 25px;
+  float: left;
+    border-bottom: 1px solid #999999;
+
+}
+
 /* Col 1 Topbanner mit Text auf Farbe auf Bild */
 .topbanner-img {
   height: 395px;
   width: 550px;
   background-image: url("../../img/isl/ban/topbanner.jpg");
   background-repeat: no-repeat;
+  margin-bottom: 60px;
 }
 
 .topbanner-spacer {
@@ -278,11 +297,6 @@ float: left;
   height: 80px;
   background-color: #222222;
   opacity: 0.8;
-}
-.topbanner-text {
-  padding: 10px 20px 0px 20px;
-  font-size: 23px;
-  color: #FFFFFF;
 }
 
 /* Col 2 Bild mit Textunterschrift neben Main Pic */
@@ -298,13 +312,16 @@ float: left;
 
 .col3-pic {
     width: 245px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
+}
+.col3-pic1 {
+    width: 245px;
+    margin-bottom: 205px;
 }
 
 /* Scrollbar rechts */
 .scrollbar {
     width: 245px;
-    padding-top: 25px;
     margin-bottom: 45px;
     float: left;
    color: #333333;
@@ -357,13 +374,13 @@ float: left;
   float: left;
   width: 260px;
   height: 150px;
-  margin-top: 45px;
-  padding-bottom: 15px;
+  padding-bottom: 70px;
+  border: 1px solid #cccccc;
 }
 
 .dreier-col2 {
-  margin-top: 146px;
-    margin-left: -12px;
+  margin-top: 82px;
+  margin-left: -12px;
 }
 .dreier-col2-2 {
       margin-left: -12px;
@@ -371,7 +388,7 @@ float: left;
 
 .dreier-text {
   font-size: 14px;
-  line-height: 15px;
+  line-height: 20px;
   padding: 4px 10px 25px 10px;
 }
 
@@ -382,18 +399,23 @@ float: left;
 .dreier-zwei {
   margin-left:22px;
 }
-.dreier-zwei-unten {
+.vierer-zwei-unten {
   margin-left:20px;
 }
-.dreier-unten-img {
+.vierer-unten-img {
   width: 260px;
   height: 190px;
 }
-.dreier-unten {
+.vierer-unten {
   float: left;
   width: 260px;
   height: 150px;
   padding-bottom: 15px;
+}
+.vierer-text {
+  font-size: 14px;
+  line-height: 20px;
+  padding: 4px 10px 25px 10px;
 }
 
 .col1-2 {
@@ -409,8 +431,9 @@ float: left;
 
 
 .col1-2-bild-ueber-text-img {
-  width: 400px;
-  height: 200px;
+  width: 390px;
+  padding-right: 10px;
+  height: 230px;
 
 
 
@@ -418,8 +441,8 @@ float: left;
 
 .col1-2-bild-ueber-text-text {
   font-size: 17px;
-  line-height: 15px;
-  padding: 10px 10px 0px 0px;
+  line-height: 20px;
+  padding: 10px 10px 10px 0px;
   width: 410px;
 }
 
@@ -449,7 +472,7 @@ float: left;
 .col1-2-bild-neben-text-text {
   font-size: 15px;
   line-height: 19px;
-  padding: 10px 0px 15px 10px;
+  padding: 5px 0px 5px 10px;
   width: 233px;
     float: left;
 }
@@ -467,13 +490,13 @@ h5 {
   font-size: 23px;
   width: 350px;
    margin-left: 20px;
-  line-height: 23px;
+  line-height: 25px;
 
 }
 .contentwidth2 {
   width: 1100px;
   margin: auto;
-  height: 540px;
+  height: 520px;
   background-color: #C3DAFF;
 
 }
@@ -481,7 +504,7 @@ h5 {
   width: 1100px;
   margin: auto;
   height: 280px;
-  padding-top: 25px;
+  padding-top: 55px;
 
 }
 .contentwidth4 {
@@ -493,7 +516,7 @@ h5 {
 
 .bigbanner-descr {
   font-size: 14px;
-  line-height: 19px;
+  line-height: 21px;
   width: 470px;
   padding: 10px 0px 0px 0px;
   margin-left: 20px;
@@ -506,7 +529,7 @@ h5 {
 .col1col2-pic-small-text {
   width: 185px;
   font-size: 14px;
-    line-height: 15px;
+    line-height: 17px;
     margin-bottom: 25px;
     margin-top: 5px;
        margin-left: 30px;
@@ -521,7 +544,6 @@ h5 {
 
 .col3-bild-neben-text-img {
   width: 105px;
-  height: 70px;
   margin-left: 5px;
   margin-top: 15px;
   float: left;
@@ -531,11 +553,11 @@ h5 {
 
 .col3-bild-neben-text-text {
   font-size: 13px;
-  line-height: 15px;
+  line-height: 16px;
   margin-left:8px;
-    margin-top: 25px;
-  padding: 4px 0px 15px 0px;
-  width: 230px;
+    margin-top: 15px;
+  padding: 2px 0px 25px 0px;
+  width: 200px;
   float: left;
 }
 
@@ -565,9 +587,21 @@ h6 {
   line-height: 23px;
 
 }
+h6:hover {
+    color: #CC0202;
+}
+
+h5:hover {
+    color: #CC0202;
+}
+
+h3:hover {
+    color: #CC0202;
+}
+
 .bigbanner-descr-2 {
   font-size: 14px;
-  line-height: 19px;
+  line-height: 21px;
   width: 470px;
   padding: 10px 0px 0px 0px;
 }
