@@ -325,3 +325,55 @@ als PRogrammierer lernt man einiges dazu, mam lernt gewissenhafter zu benamen, w
 Social Icons teils bunt, teils im Header und im Footer, auch Google Play und Apple
 
 bangaldesch zur zeit der abhandlung durch naturkatastrophe und ebenfalls corona heimgesucht, bilder daher entsprechend teils durch diese Themen dominiert
+
+Libyen
+
+Font Family
+Tahoma,Arial 															(opensooq)
+normal normal 16px/1.4 'DroidArabicKufi-Regular', sans-serif, Arial		mawdoo3
+"Cairo", Arial, "Helvetica Neue", Helvetica, serif						ltt.ly
+"JF-Flat-Regular" 														libyana
+"HelveticaNeue",Helvetica,Arial,sans-serif								almadar
+"Helvetica",Arial,sans-serif											kooora
+"Helvetica Neue",Helvetica,Arial,sans-serif								youm7
+"roboto",lfont															webteb
+"JF-Flat-Regular"														libyana
+Noto Kufi Arabic														libyaakhbar
+
+Seiten wirken sehr  dezent, auch weniger BIlder, Schrift größer und mit mehr Weißraum (Grund ist die Schrift)
+
+Logo immer mal mit Untertext aus lateinischen Buchstaben - komisch wenn die Lesrichtung dadurch wieder durchbrichen wird
+
+Es wird häufig zumindest in Teilen über die komplette Länge gearbeitet (in Bannern, in Nav, im Logobereich-...)
+
+Programmierung der Lesrichtung von rechts nach links via Markups, man programmiert die Seite in logischer Reihenfolge, nicht in visueller. Das Markup ordnet die Elemente dann entsprechend automatisch richtig an.
+
+Recht wenig Menüpunkte auf den ersten Blick, aber häufig Menüpunkte einzeln ausklappbar oder erweiterndes Menü über Burger-Icon an der Seite
+
+suche: PLaceholder recht umfangreich ("Suchen Sie im INternet der Medizin" oder "Suche im Quatar open Market" "Ich suche nach" "Geben Sie das zu suchende Wort ein" almadar.ly)
+
+es wird viel mit abgerundeten Ecken gearbeitet, dadurch wirkt das Layout weicher und das korreliert irgendwie mit der Schriftart, die auch eher rund und weich scheint, wenig kantig
+
+SChriftart funktioniert etwas strange, von einer Größe zur nächsten wird der Schriftschnitt viel fetter
+Schrift wurd viel Raum gegeben, es wird nicht so viel mit unterschiedlichen Strukturen gespielt, die Seiten wirken recht gleichmäßig und geordnet
+nicht soo viel text auf einer seite
+die seiten sind bei weitem nicht so lang nach unten hin und endlos wie bei anderen ländern
+gern ein border ums Bild oder weißräume die wie rahmen wirken um das bild
+es wird weniger mit (grauen) linien gearbeitet zur strukturierung und trennung, sondern wie gesagt eher mit weißräumen und abstandsrändern
+
+kein Corona thematisiert
+__________________________________________________________
+
+Tansania
+
+http://af1234.com/
+https://mdundo.com/tz
+https://www.ajiraleo.com/
+https://www.tamisemi.go.tz/
+https://mabumbe.com/
+https://www.ajira.go.tz/
+https://pmbet.co.tz/sw/home
+https://www.tra.go.tz/
+https://djmwanga.com/
+https://parimatch.co.tz/sw/
+https://www.jamiiforums.com/
