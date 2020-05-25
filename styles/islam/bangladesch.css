@@ -42,7 +42,7 @@ html {
 
 nav {
   height: 50px;
-  float: left
+  float: left;
 }
 
  nav ul li {
@@ -446,12 +446,6 @@ float: left;
   width: 410px;
 }
 
-.col1-2-bild-neben-text  {
-    width: 385px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    float: left;
-}
 .col1-2-bild-neben-text  {
     width: 385px;
     padding-bottom: 15px;
