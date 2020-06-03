@@ -377,3 +377,69 @@ https://www.tra.go.tz/
 https://djmwanga.com/
 https://parimatch.co.tz/sw/
 https://www.jamiiforums.com/
+
+Übermäßig viele Seiten für Wetten und Glücksspiel in den Top 50 (bei Sambia auch), auch Seiten von der Regierung
+
+Auf den ersten Blick recht simple, einfach strukturierte Seiten
+
+Sambia und Ransania auffallend viele nicht (von hier aus oder temporär?) erreichbare Seiten
+
+Interessante Beobachtung: Irgendwann hat man vorab schon im Auge wo WErbebanner eingeblendet werden wenn man den Adblocker abschaltet.
+Bei Zambia teils ähnlich wie in Russland - wenn WErbung unterdrückt wird, wird das Layout teils zersprengt, es entstehen Lücken, es verschieben sich Elemente horizontal und vertikal
+
+Zambia
+
+https://zambianmusicblog.co/category/latest/
+http://www.exams-council.org.zm/
+https://www.zambiawatchdog.com/
+http://diggers.news/
+https://zambianmusic.net/
+https://www.zambianobserver.com/
+https://www.tfp.is/recent/
+http://gsb.co.zm/sports
+
+__________________________________________________________________
+
+__________________________________________________________________
+Tansania
+
+englisch oder swaheli
+
+klare Schrift, einfache Schriftart ohne Schnörkel, teils ziemlich kleine Schriftgröße (checken!)
+wirkt teilweise wie Word Art aus den 90ern
+Bilder teils pixelig und verzerrt, Seiten teils zerschossen
+seltener ein Topbanner
+Regierungsseite sieht anders aus als die übrigen, geordneter und keine Werbung, wirkt wie mit mehr Sorgfalt erstellt, clean und sortiert (auch hier gibt es aber blinkende und sich bewegende Elemente die eher nicht passen)
+sehr einfache Sruktur, bsp auch mabumbe.com
+häufig 2 spaltig, unten läuft es einspaltig weiter (der breite läuft weiter). Bild rechts daneben Text häufig
+Menschen sind eher auf Regierungsseiten zu sehen während andere Newsseiten eher Logos oder so zeigen und auf die Regierungs- und Bildungsseiten verlinken
+
+man scheißt scheinbar darauf die social icons nach den vorschriften der anbieter einzubauen
+
+teils gar kein footer oder nur eine zeile
+
+
+Namibia
+
+Zusätzliche Seite:
+https://www.az.com.na/
+http://www.namibiatourism.com.na/
+http://www.airnamibia.com/
+http://www.unam.edu.na/
+https://www.namibiansun.com/
+
+Namibia
+oben schmales und breites Band
+Seite sehr breit, meist auf komplette Breite gezogen ganzseitig
+Logo weiß mit gelb und rot
+
+Auch das Design, das nachgestellt wird, auch wenn es auf den Designs existierender Seiten basiert, trägt immer die Handschrift des Gestalters / Erstellers (und auch seiner KUltur, seinem Blick und wie er geschult wurde)
+
+Blindtextgenerator http://www.randomtextgenerator.com/ genutzt, weitere:
+Gifs erstellt auf: https://gif-erstellen.com/
+Check für HTML-Code: https://validator.w3.org/
+
+Namibia eher prozentual Angabe
+Seiten oft nicht erreichbar (verschiedene)
+
+Namibia alles sehr gleichmäßig und auf Linie, es gibt aber Ausnahmen (aber teils selbst Newsseiten recht eben)
