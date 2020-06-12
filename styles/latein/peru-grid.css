@@ -22,7 +22,7 @@ time, mark, audio, video {
   vertical-align: baseline;
   -moz-user-select: none;
   -webkit-user-select: none;
-  font-family: Roboto,sans-serif;
+  font-family: Bitter,serif;
 }
 
 
@@ -40,16 +40,14 @@ html {
   box-sizing: border-box;
 }
 
-
 h1 {
-    background-color: #333333;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    padding-left: 15px;
-    padding-top: 9px;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 25px;
+    background-color: #efefef;
+    width: 940px;
     padding-bottom: 5px;
-    font-size: 15px;
-    margin-bottom: 25px;
+    padding-top: 10px;
 }
 
 h2 {
@@ -64,7 +62,8 @@ h2 {
 }
 
 h3 {
-  background-color: #E7E7E7;
+  background-color: #333333;
+  color: #FFFFFF;
   text-transform: uppercase;
   padding-left: 15px;
   padding-top: 9px;
@@ -73,10 +72,15 @@ h3 {
   margin-bottom: 15px;
 }
 
+.grey {
+  background-color: #efefef;
+  color: #FFFFFF;
+}
+
 .contentwidth {
   width: 940px;
   margin: auto;
-  height: 2800px;
+
 }
 
 .contentwidth-topheader {
@@ -86,10 +90,8 @@ h3 {
 .contentwidth-werbebanner {
   width: 940px;
   margin: auto;
-  height: 2000px;
-
+  height: 3400px;
 }
-
 /* Helper */
 .floatright {
   float: right;
@@ -180,44 +182,6 @@ main {
   margin-bottom: 25px;
 
 }
-
-
-
-.col1 {
-  width: 230px;
-  float: left;
-  margin-right: 25px;
-  margin-top: 65px;
-}
-
-.col2 {
-  width: 650px;
-  margin-top: 65px;
-  float: left;
-}
-
-.col3 {
-  width: 315px;
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-top: 65px;
-  float: left;
-}
-
-/* Werbeplatz ganz rechts, nur oben */
-
-.col4 {
-  width: 130px;
-    margin-top: 65px;
-    float: left;
-}
-
-.colAll {
-  height: 800px;
-  width: 1400px;
-  margin-top: 35px;
-  float: left;
-}
 .werbebanner {
   width: 730px;
 }
@@ -256,30 +220,18 @@ main {
   font-size: 14px;
 }
 
-article a  {
-  text-decoration: none;
-}
 
-article a div:hover {
-  text-decoration: none;
-}
-
-.topbanner {
-  float: left;
-  margin-right: 40px;
-  margin-top: 15px;
-}
 
 /*Topbanner mit Farbverlauf und Text auf Bild */
 .topbanner-img {
-  width: 620px;
-  height: 340px;
+  width: 623px;
+  height: 374px;
   background-image: url("../../img/lat/per/topbanner.jpg");
   background-repeat: no-repeat;
 }
 
 .topbanner-spacer {
-  height: 205px;
+  height: 235px;
 }
 
 .topbanner-farbverlauf {
@@ -289,45 +241,174 @@ article a div:hover {
 }
 
 .square-ad {
-  float: left;
   margin-top: 80px;
 }
 
 .square-ad-img {
   width: 240px;
-  margin-right: 35px;
 }
 
-.row-margin-top {
+/* GRid Layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 15px;
+
+}
+
+.grid-dark {
+  background-color: #333333;
+  color: #FFFFFF;
+}
+
+
+/* GRid Layout */
+.grid-container-2er {
+  display: grid;
   margin-top: 20px;
+  grid-template-columns: auto auto;
+  gap: 15px;
+
 }
 
-/* Col2 Text über Bild*/
+/* GRid Layout */
+.grid-container-4er {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  margin-bottom: 25px;
 
-.bild-ueber-text {
-  height: 300px;
-  float: left;
+}
+
+.autor-4er {
+  color: #999999;
+  padding-bottom: 5px;
+  font-size: 13px;
+}
+
+.grid-text {
+  padding: 5px;
 }
 
 .bild-ueber-text-text {
-    padding: 25px 25px 5px 0px;
-    width: 285px;
     font-size: 19px;
     line-height: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
 }
 
 .bild-ueber-text-img {
-  width: 285px;
-  margin-right: 25px;
+  width: 303px;
+
+
 }
+
+.img-full {
+  height: 397px;
+  width: 305px;
+}
+
+.bild-ueber-text-img-4er {
+  width: 210px;
+  height: 120px;
+  margin-bottom: -5px;
+  padding: 5px;
+  background-color: #efefef;
+
+}
+
+.bild-ueber-text-text-4er {
+  font-size: 16px;
+  line-height: 22px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: left;
+  background-color: #efefef;
+
+}
+
+
+.text-ueber-bild-text {
+  font-size: 19px;
+  line-height: 22px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+  padding-top: 25px;
+}
+
+.text-ueber-bild-img {
+  width: 300px;
+}
+
+
+.bild-ueber-text-img {
+  width: 300px;
+  padding-bottom: 15px;
+
+}
+
+
+h4 {
+  margin-top: 35px;
+  margin-bottom: 45px;
+}
+
+.thema {
+  color: #999999;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.autor {
+  color: #999999;
+  padding-bottom: 15px;
+  font-size: 13px;
+}
+
+h5 {
+  margin-top: 35px;
+  font-size: 22px;
+  margin-bottom: 45px;
+}
+.grid-thema {
+  color: #999999;
+  margin-top: 95px;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.grid-autor {
+  color: #999999;
+  padding-bottom: 15px;
+  font-size: 18px;
+}
+
+.grid-item {
+  background-color: #efefef;
+  text-align: center;
+  width: 302px;
+}
+
+.grid-item-4er {
+  background-color: #efefef;
+  text-align: left;
+  width: 210px;
+}
+
+h6 {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
 
 /* Scrollbar rechts */
 .scrollbar {
-    width: 287px;
-    margin-bottom: 25px;
+    width: 305px;
     float: left;
     color: #333333;
-    border: 1px solid #999999;
+    text-align: left;
 
 
 }
@@ -337,10 +418,10 @@ article a div:hover {
 }
 
 .scrollbar-text {
-   font-size: 14px;
-   margin: 0px 25px 18px 20px;
+   font-size: 15px;
+   margin: 0px 25px 15px 20px;
    padding-bottom: 20px;
-    border-bottom: 1px solid #999999;
+  border-bottom: 1px dashed #999999;
 }
 
 .scrollbar-time {
@@ -353,106 +434,88 @@ article a div:hover {
 }
 
 
- h4 {
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: bold;
-  margin: 0px 15px 0px 0px;
-  }
 
-  h5 {
-    background-color: #E7E7E7;
-    text-transform: uppercase;
-    padding-left: 15px;
-    padding-top: 9px;
-    padding-bottom: 5px;
+/*Footerstyles */
+.footer {
+  width: 940px;
+  background-color: #333333;
+  margin: auto;
+  height: 300px;
+  color: #FFFFFF;
+  font-size: 17px;
 
-    font-size: 15px;
-
-  }
-
-
-  /*Footerstyles */
-  .footer {
-    width: 940px;
-    background-color: #333333;
-    margin: auto;
-    height: 330px;
-    color: #FFFFFF;
-    font-size: 14px;
-
-  }
-  #footer-logo-img {
-    width: 230px;
-    margin-left: -5px;
-    margin-bottom: 15px;
-  }
-
-  footer ul li a {
-    font-size: 13px;
-    color: #FFFFFF;
-
-  }
-
-  footer a {
-    font-size: 13px;
-    color: #FFFFFF;
-  }
-
-  .footer-padding {
-    padding-bottom: 45px;
-  }
-
-  .footer-font {
-    font-size: 13px;
-    color: #FFFFFF;
-  }
-
-  .marginleft {
-    margin-left: 55px;
-  }
-  .margintop {
-    margin-top: 15px;
-  }
-
-  .font-weight-600 {
-    font-size: 13px;
-    color: #FFFFFF;
-
-  }
-  .rowfooter {
-    padding-top: 35px;
-    padding-left: 55px;
-    padding-right: 45px;
-    height: 220px;
-    border-right: 1px solid #c5c5c5;
-    width: 210px;
-    float: left;
-  }
-
-.lastrow {
-    border-right: 0px solid #c5c5c5;
+}
+#footer-logo-img {
+  width: 230px;
+  margin-left: -5px;
+  margin-bottom: 15px;
 }
 
-  .li-dot {
-    display: block;
-    margin-bottom: 8px;
-    text-transform: uppercase;
-  }
-  .li-dot a {
-    text-decoration: none;
-  }
+footer ul li a {
+  font-size: 14px;
+  color: #FFFFFF;
 
-  .footer-margin {
-    margin-right: 46px;
-  }
+}
 
-  #footerbg2 {
-    width: 940px;
-    margin: auto;
-    height: 30px;
-    text-align: center;
-    color: #666666;
-    padding-top: 13px;
-    font-size: 13px;
-  }
+footer a {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.footer-padding {
+  padding-bottom: 45px;
+}
+
+.footer-font {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.marginleft {
+  margin-left: 55px;
+}
+.margintop {
+  margin-top: 15px;
+}
+
+.font-weight-600 {
+  font-size: 14px;
+  color: #FFFFFF;
+
+}
+.rowfooter {
+  padding-top: 35px;
+  padding-left: 55px;
+  padding-right: 45px;
+  height: 220px;
+  border-right: 1px solid #c5c5c5;
+  width: 210px;
+  float: left;
+}
+
+.lastrow {
+  border-right: 0px solid #c5c5c5;
+}
+
+.li-dot {
+  display: block;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+.li-dot a {
+  text-decoration: none;
+}
+
+.footer-margin {
+  margin-right: 46px;
+}
+
+#footerbg2 {
+  width: 940px;
+  margin: auto;
+  height: 30px;
+  text-align: center;
+  color: #666666;
+  padding-top: 13px;
+  font-size: 14px;
+}
