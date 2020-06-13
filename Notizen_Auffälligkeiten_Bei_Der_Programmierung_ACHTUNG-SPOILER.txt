@@ -460,3 +460,68 @@ Dadurch lernt man eigentlich vermutlich am meisten über sich selbst.
 
 Die Unterschiede liegen tatsächlich in Details, die eione große Wirkung haben: Wie breit ist der COntent? Je schmaler, desto älter wirkt es auf mich. Sobald es in die BReite geht und vuielleicht sogar ein Element (meistens NAv oder Topheader) über die gesamte BReite geht, wirkt es auf mich automatisch moderner
 Es wäre interessant zu sehen, wie Menschen aus den anderen Kulturen das sehen oder die Entwicklung zu sehen, die die Webdesgins mitgemacht haben (gibt es irgendwo eine Möglichkeit? archiv.org vielleicht?)
+
+
+Untersuchung bezieht natürlich auch immer den Untersuchenden und seine SIchtweise, seine Erfahrungen und seine Herkunft mit ein
+Ich achte auf andere Dinge, sehe vielleicht nicht was andere sehen und kann mir somit nicht sicher sein, ob ich den Ton wirklich treffe auch wenn ich mir Mühe geben
+es ist also nicht so leicht, aber die frage ist auch wie wichtig ist das webdesign? präsentiere ich einem in russland aufgewachsenem das russische layout - spricht es ihn am meisten an?
+sicherlich spielen hier die bildersprache und die schrift eine große rolle.
+
+
+Lateinamerika - El Salvador
+
+https://www.laprensagrafica.com/
+https://www.elsalvador.com/
+https://www.lapagina.com.sv/
+https://www.solonoticias.com/
+https://diario.elmundo.sv/
+http://www.uca.edu.sv/
+https://www.mh.gob.sv/pmh/es/
+
+
+_________________________________
+
+Peru
+
+https://elbocon.pe/
+https://libero.pe/
+https://rpp.pe/
+https://larepublica.pe/
+https://elcomercio.pe/?ref=ecr
+https://rpp.pe/?ref=rpp
+https://diariocorreo.pe/
+https://peru21.pe/
+https://gestion.pe/
+https://www.americatv.com.pe/
+https://trome.pe/
+
+____________________________________
+
+Kolumbien
+https://www.eltiempo.com/
+https://www.semana.com/
+https://www.caracoltv.com/
+https://www.elespectador.com/noticias/
+https://www.publimetro.co/co/
+https://www.pulzo.com/
+https://as.com/?omnaut=1
+https://www.elcolombiano.com/
+
+
+________________________________________
+
+Peru Schriftarten gemischt - auf manchen Seiten serif, auf anderen sans
+
+Logo schnörkellos, einfach Schriftzug wie bei einer Zeitschrift auch (generell sieht alles nach Zeitschrift aus - man muss aber auch sagen, dass die meisten NEwsseiten scheinbsr aus dem gleichen Hause kommen (sagt das Imprint und verrät auch der sehr ähnlliche HTML-Code und die gleiche Benamung der CSS-Klassen)
+
+Farben: gelb, blau, rot
+
+Topheader Navi und Navi Navi unbter Logo
+
+teils arg pixellige Bilder
+Die Seiten scheinen alle aus einem Hause zu kommen
+
+großes Einstiegsbild links, daneben ein BIld Werbung (fremd- oder eigen zb Newsletter)
+keine untersc breiten cols - wie zeitung gerade runter
+
+realisiert in einem Grid-Layout
