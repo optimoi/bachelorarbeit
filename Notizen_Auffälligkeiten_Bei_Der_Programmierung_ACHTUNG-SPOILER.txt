@@ -525,3 +525,85 @@ großes Einstiegsbild links, daneben ein BIld Werbung (fremd- oder eigen zb News
 keine untersc breiten cols - wie zeitung gerade runter
 
 realisiert in einem Grid-Layout
+
+Peru hat quasi zwei Menüs, einmal mit aktuellen Topthemen, einmal mit Kategorien, beides nicht +bermäßig, eher dezent vong Anzahl her (Themen nochmal checken)
+___________________________________________
+
+El Salvadro
+
+breiter als Peru
+Logo oben zentriert
+Überschriften haben eher Serifen, Text eher nicht
+Montserrat,sans-serif
+Auch im Logo werden unterschiedliche SChriftschnitte, Schriften etc kombiniert
+
+___________________
+antahlk der menüps? 1, 2 oder 3 mit noch einem im footer?
+____________________________
+
+irgendwas im ovberen bereich reicht über duie gesamte breite, wenn nicht das menü
+
+großes main pic oben links, daneben asides oder werbung
+Schrift auf BIld
+
+Werbung im Contentbereich eher zum Medium selbst
+Abnstände häufig nicht einheitlich, ajf kein grid, nicht so regelmäßig
+
+Schrift im Menü recht klein, dafpr Überschriften verhältnismäßig groß
+
+Footer komplette Breite, oft mittel-dunkelgrauer HG, SOcial Icons, meistens recht reduziert wenn nochmal ein paar Kategorien
+
+Detailfarbe  aus dem HEader auch im Verlauf immer wieder in kleinen Details
+
+Breiter Contentbereich und eine Spalte für >Werbung und ZUsatzinfos
+
+Russland nochmal mit Grid überarbeiten und etwas verlängern (untersuchen ob Grid passt)
+
+recht gviele unterschiedliche schriftformatierungen, ghrlößen schnitte (hab ich glaub ich schon mal geschrieben)
+
+rechte Spalte etwas wild, durcheinander Werbung und Infos, teils auch einfach nichts, ajf nicht im raster mit content
+recht wenig werbung meistens (gibt auch ausnahmen)
+
+
+_____________________________________
+
+Kolumbien
+
+
+BReite ähnlich zu ElS , eher etwas schmaler, aber breiter als viele, im Headerbereich schon in Teilen über volle BReite, Conten t nicht
+
+Auch Headerbereich oben,
+
+Schlanke Schriftart für Logo
+
+teils ist logo recht unaff#ällig oder kaum zu finden
+
+benutzen auch viel Schrift mit Serifen in Überschriften unnd Text
+
+Mehr Menüpunkte als ElSalvador
+_____________________________________
+Serifen oder nicht Serifen - was überwiegt? Was macht das mit dem Layout als Ganzes?
+_____________________________________
+
+
+Manü fängt unterm Logo an (meistens)
+
+Social Icons im Header und Footer
+
+Recht gestreckt wirkende Schrift ohne Serifen
+
+breite Col kleine COl oder breit schmal schmal
+
+mehr text, längere überschriften
+
+Kleine Navi scrollt gern mit
+
+Headerbereich deutlich abgegrenzt von Contentbereich, deutlich optisch abgegrenzt
+
+viele Bilder, große Bilder
+
+gern leicuhte Hover-Animationen und Effekte
+
+Raster: recht wild, teilweise 3 col mit unterschiedlichen Höhen, teils passt es, aber dennoch viele unterschiedliche Strukturen
+
+Seitenbereich neben Content wird häufig für Werbeplatzierung genutzt
