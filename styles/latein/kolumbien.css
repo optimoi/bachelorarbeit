@@ -146,10 +146,6 @@ a:hover {
 
 }
 
-.inline-footer {
-  padding-right: 12px;
-  padding-left: 12px;
-}
 
 
 .social-icons img {
@@ -704,6 +700,12 @@ footer a {
   text-decoration: none;
   color: #FFFFFF;
 }
+
+.inline-footer {
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
 
 #footerbg2 {
   width: 1250px;

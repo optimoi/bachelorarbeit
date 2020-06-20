@@ -1,0 +1,406 @@
+/* HTML5 display-role reset for older browsers */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, hr,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, main
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 12px;
+  line-height: 15px;
+  color: #535353;
+  font: inherit;
+  vertical-align: baseline;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  font-family: 'Eugenio Sans Text','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, menu, nav, section, main {
+  display: block;
+}
+
+/**
+ * Box model
+ */
+html {
+  box-sizing: border-box;
+}
+
+/* Helper */
+.floatright {
+  float: right;
+}
+.bg-dark {
+  background-color: #111111;
+}
+
+.abstand-rechts {
+  margin-right: 60px;
+}
+
+.abstand-links {
+  margin-left: 60px;
+}
+.abstand-oben {
+  margin-top: 25px;
+}
+
+.abstand-unten {
+  margin-bottom: 25px;
+}
+
+h1 {
+    font-size: 26px;
+    padding-top: 5px;
+    line-height: 24px;
+    color: #121212;
+    padding-bottom: 5px;
+    font-family:  Lora,Georgia,"Times New Roman",Times,serif;
+}
+
+h2 {
+  font-size: 27px;
+  line-height: 28px;
+  color: #C41B22;
+  text-transform: uppercase;
+  height: 35px;
+
+}
+
+h3 {
+  font-size: 25px;
+  padding-left: 30px;
+  padding-right: 45px;
+  padding-top: 20px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+h4 {
+  margin-bottom: 10px;
+  color: #111111;
+  font-size: 19px;
+  line-height: 23px;
+  margin-top:10px;
+      font-weight:bold;
+
+
+}
+
+
+h5 {
+  font-size: 11px;
+  line-height: 13px;
+  text-transform: uppercase;
+  float: right;
+  margin-left: 15px;
+  margin-top: 4px;
+  font-family:  Lora,Georgia,"Times New Roman",Times,serif;
+}
+
+h6 {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  font-size: 14px;
+
+}
+
+#logo-bereich {
+    padding-top: 55px;
+    width: 360px;
+    margin: auto;
+    height: 80px;
+}
+
+
+#logo-img {
+  width: 360px;
+}
+
+
+nav {
+  padding: 5px 0px 10px 0px;
+  width: 1000px;
+  margin:auto;
+  border-bottom: 2px solid #121212;
+
+
+}
+nav ul {
+    width: 650px;
+margin:auto;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+  text-decoration:none;
+  font-size: 18px;
+  color: #111111;
+  font-family:  Lora,Georgia,"Times New Roman",Times,serif;
+  text-align: center;
+
+}
+
+/* Hamburger Button 4 Menu */
+.hamburger {
+  width: 30px;
+  margin-right: 60px;
+  margin-top: 4px;
+  float: left;
+}
+
+.line {
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  height: 2px; width: 25px;
+  background: #121212; border-radius: 2px;
+  display: block;
+}
+.inline {
+  display: inline;
+
+}
+
+
+main {
+  margin-bottom: 25px;
+
+}
+
+article a {
+  text-decoration: none;
+}
+
+article {
+  font-size: 15px;
+}
+
+
+
+.contentwidth {
+  width: 1000px;
+  margin: auto;
+  height: 4530px;
+
+}
+
+#werbebanner-top {
+  width: 970px;
+  margin: auto;
+  padding-bottom: 5px;
+}
+.werbebanner-img {
+  width: 920px;
+  padding-top: 24px;
+}
+
+
+.bild-text-wrapper {
+  height: 280px;
+  width: 650px;
+  float: left;
+  margin-top: 25px;
+}
+.bild-text-text {
+  font-family: "TT Norms Pro Medium",'arial-narrow',sans-serif;
+  line-height: 19px;
+  width: 330px;
+  float: left;
+  margin-left: 15px;
+}
+
+
+.bild-text-img {
+width: 270px;
+height: 180px;
+margin-bottom: 10px;
+float: left;
+}
+.thema {
+  color: #999999;
+  font-size: 11px;
+  font-weight:bold;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+
+/*Footerstyles */
+
+footer {
+  background-color: #111111;
+}
+
+
+.footer {
+  width: 1100px;
+  margin: auto;
+  height: 400px;
+  color: #FFFFFF;
+  font-size: 17px;
+  padding-top: 25px;
+
+}
+
+footer ul li a {
+  font-size: 14px;
+  color: #FFFFFF;
+
+}
+
+footer a {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.footer-padding {
+  padding-bottom: 45px;
+}
+
+.footer-font {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.marginleft {
+  margin-left: 55px;
+}
+.margintop {
+  margin-top: 15px;
+}
+
+.font-weight-600 {
+  font-size: 14px;
+  color: #FFFFFF;
+
+}
+.rowfooter {
+  margin-top: 45px;
+  padding-top: 25px;
+  float: left;
+  height: 250px;
+  width: 190px;
+  border-right: 2px solid #777777;
+}
+
+#firstrowfooter {
+  margin-top: 45px;
+  padding-top: 25px;
+  float: left;
+  height: 250px;
+  width: 250px;
+  border-right: 2px solid #777777;
+}
+
+#lastrowfooter {
+  margin-top: 45px;
+  padding-top: 25px;
+  float: left;
+  height: 250px;
+  width: 250px;
+  border-right: 0px;
+  margin-left: 55px;
+}
+
+#footer-logo-img {
+  width: 200px;
+  height: 30px;
+  margin-bottom: 35px;
+  margin-top: 35px;
+}
+
+.footer-social-icons {
+  width: 150px;
+
+}
+
+#footer-social-ueberschrift {
+  margin-bottom: 10px;
+
+}
+
+.footer-social-icons img {
+  width: 25px;
+  padding-right: 8px;
+}
+
+.rowfooter ul li {
+  list-style: none
+}
+
+.rowfooter a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+#footerbg2 {
+  width: 1250px;
+  margin: auto;
+  height: 65px;
+  color: #111111;
+  font-size: 14px;
+}
+
+#copyright {
+
+  text-align: center;
+}
+
+#interactive {
+  height: 15px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 25px;
+}
+
+.social-icons {
+  float: left;
+
+}
+.social-icons img {
+  width: 15px;
+  height: 15px;
+  margin-right: 2px;
+
+}
+#twitter {
+  background-color: #1dcaff;
+  padding: 3px 0px 0px 3px;
+  border-radius: 15px;
+}
+
+#facebook {
+  background-color: #3b5998;
+  padding: 4px 1px 0px 4px;
+  border-radius: 15px;
+}
+.icons-right {
+  float: right;
+
+}
+
+.icons-right img {
+  background-color: #333333;
+  padding: 3px;
+  border-radius: 35px;
+  width: 15px;
+  height: 15px;
+}

@@ -567,6 +567,8 @@ recht wenig werbung meistens (gibt auch ausnahmen)
 
 _____________________________________
 
+_____________________________________
+
 Kolumbien
 
 
@@ -607,3 +609,54 @@ gern leicuhte Hover-Animationen und Effekte
 Raster: recht wild, teilweise 3 col mit unterschiedlichen Höhen, teils passt es, aber dennoch viele unterschiedliche Strukturen
 
 Seitenbereich neben Content wird häufig für Werbeplatzierung genutzt
+
+_____________________________________
+
+Zahl der NEwssseiten unter den Top 50 - korreliert mit irgendwas?
+Startseite mit Verlinkung zu allem
+
+______________________________________
+
+Westen
+
+Italien: Gibt viele Seiten, die einen nix lesen lassen wenn der Adblocker an ist (bei keiner Newsseite außerhalb der westlichen Welt innerhalb dieses Rahmens hier war das der Fall)
+
+BReite des Contents und Anzahl der Bilder beziehungsweise Verhältnis Bilder zu Text unterschiedliche je nach Seriosität
+
+Seiten Italien:
+https://www.repubblica.it/index.html?refresh_ce
+https://www.corriere.it/
+https://www.libero.it/
+https://www.ilfattoquotidiano.it/
+https://www.ansa.it/?refresh_ce
+https://www.lastampa.it/?refresh_ce
+https://www.ilmessaggero.it/?refresh_ce
+https://www.virgilio.it/
+https://www.fanpage.it/
+https://www.liberoquotidiano.it/
+https://www.ilgiornale.it/?refresh_cens
+
+Deutschland
+https://www.morgenpost.de/
+https://www.sueddeutsche.de/
+https://www.zeit.de/index
+https://www.derwesten.de/
+https://www.merkur.de/
+https://www.n-tv.de/
+https://www.welt.de/
+https://www.focus.de/
+https://www.spiegel.de/
+https://www.tagesschau.de/
+https://www.bild.de/#fromWall
+https://www.t-online.de/
+
+UK
+https://www.mirror.co.uk/
+https://news.sky.com/
+https://www.independent.co.uk/?CMP=ILC-refresh
+https://www.express.co.uk/
+https://www.telegraph.co.uk/#source=refresh
+https://www.theguardian.com/international
+https://www.gov.uk/
+https://www.dailymail.co.uk/home/index.html
+https://www.bbc.com/
