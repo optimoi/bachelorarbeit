@@ -710,3 +710,37 @@ habe mich entschieden eher die strukturierten als VOrbild zu nehmen, denn von se
 Gibt geordnet, große Bilder und Platz (teils auch mit GRid umgesetzt wie mirror und https://www.telegraph.co.uk/#source=refresh) mit dezenter WErbung und auf der anderen Seite eng, viel Textg und viele kleine Bilder auf kleinem Raum und teils massiv Werbung- nach Inhalt unterscheidbar?
 Auf den ersten Blick jetzt nicht unbe dingt. Guardian ist eine Mischform aus beiden
 in den chaotischeren bleibt man auch nicht im Raster mit den Cols
+
+Gibt geordnet, große Bilder und Platz (teils auch mit GRid umgesetzt wie mirror und https://www.telegraph.co.uk/#source=refresh) mit dezenter WErbung und auf der anderen Seite eng, viel Textg und viele kleine Bilder auf kleinem Raum und teils massiv Werbung- nach Inhalt unterscheidbar?
+Auf den ersten Blick jetzt nicht unbe dingt. Guardian ist eine Mischform aus beiden
+in den chaotischeren bleibt man auch nicht im Raster mit den Cols
+
+________________________________________
+
+ISt natürlich alles subjektiv wie man die Seiten wahrnimmt, vielleicht fallen anderen Leuten andere Dinge auf.
+
+____________________________________________
+
+Deutschland: Bild ist eine gewisse Ausnahme in den Zeitungen, weil im oberen Bereich komplett von Bannern dominiert, weiter unten kommen aber die üblichen Strukturen die man auch bei den anderen sieht
+
+IM Deutschen wird der Zeitschriftenlook relativ deutlich imitiert. In Sachen Contentbreite unterscheiden sich die unterschiedlichen Seiten nur wenig (940 bis 1024, mit Ausnahme 1452 bei ntv)
+
+4 mal Logo mittig, 6 mal Logo links
+
+WErbung in der Regel nicht diretk oben im Einstiegsbereich und wenn dann nur wenig, vor allem eher selten im Content gleich oben. gern am rand (teils wird auch extra breiter rand rechts gelassen neben contentbereich) für werbung, auch animiert.
+werbung im einstiegsbereichs des contentbereichs eher eigenwerbung für ein abo
+
+Logo zweifarbig oder mit einem besonderen Symbol noch dazu oder ausgemacht durch die Schriftart, die häufig Serifenreich ist
+
+Detailfarben rot, orange, blau, grün, 5 rot also am meisten
+
+oberer Breeich weiß, nicht farbig 7 vs. 4
+
+Menü in einer Reihe, nicht so umfangreich, aber meistens ausklappbar oder mit Slider - nur auf den ersten Blick sieht es nicht so umfangreich aus
+
+Layout bei Springer Medien teils recht ähnlich, Header und Footer (mehr hab ikchn jetztg noch nicht gecheckt)
+
+Footer sind recht unterschiedlich, sind mal höher mal weniger hoch, manchmal sieht man gar nicht so recht wo der Footer anfängt und was noch zum Contentbereich gehört, teils zentriert, teils links, teils erst links (links), dann zentriert (sieht man ja häufig)
+häufig reichlich Reihen Links
+
+Footer genauso breit wie Content, auch keine Backgroundcolor die über die ganze Breite geht (konsequent das Zeitungslayout durchgezogen)
