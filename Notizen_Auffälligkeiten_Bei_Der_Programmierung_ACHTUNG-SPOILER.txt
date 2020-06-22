@@ -660,3 +660,53 @@ https://www.theguardian.com/international
 https://www.gov.uk/
 https://www.dailymail.co.uk/home/index.html
 https://www.bbc.com/
+
+
+Noochmal überall prüfen ob es INhalte gibt (WErbung und Videos meist), die mitscrollen, sich dauernd bewegen oder vor den Inhalt schieben
+vermeiden Blätter, die seriös wirken wollen, solche Animationen? Kann ich das als Nicht Native SPeaker oder überhaupt nicht SPeaker überhaupt erkennen ob mir jetzt seriöse oder reißerische Nchrichten geboten werden?
+
+
+_______________________________________
+
+Italien
+
+Logo häufig schwarz in Serifenschriftm gern mittig ausgerichtet
+Erstes WErbebanner quer über Logo oder direkt darunter
+Farben rot und blau (auch grün, aber Ausnahme)
+rechts und links neben contentbereich gern noch fläche für werbung oder in Spalte rechts
+
+
+sichtbaares Menü sehr wenig, aber ausklappbar per Burgermenübutton
+
+Abstände rechht schmal, also kleine weißräume
+
+Footer eher umfangreich mit Menü, mehreren Menüreihen
+_______________________________________
+
+UK
+viel Content auf wenig Platz, schwierig zu erfassenb
+
+Header teils über ganze Breite, Content teils recht breit, seltener so zeitungsähnlich wie bei ITaly. wenn Content nicht über ganze Breite, dann links und rechts daneben so wie auch überm Logo WErbung.
+
+Sky NEws große aufgeräumte Ausnahme - wäre ja vielleicht auch interessant mal zu sehen was nun besser ankommt
+
+rot und blau sind die (Detail-)Farben, mehr aber noch rot
+
+Logo einfarbig oder zweifarbig mit einem farbigen Detail, es dominiert Schrift in groß und kurz. oft serifenreiche Schrift oder sehr fett
+
+Logo meist dunkel (schwarz + evntl Zusatzfarbe) auf weiß
+
+Logo sitzt seitlich, weniger der oldschool anmutende Zeitschriftenlook
+
+Menü relativ umfangreich - nicht auf den erstgen Blick - da sind es eher 8, aber es ist oft entweder auf einzelnen Punkten ein Pfeil oder ein Menüpunkt "More" mit dem man entweder alle Punkte ausklappen kann oder eben More
+
+schriften gern Mix aus serifen un ohne serifen
+
+Seiten wie BBC und Sky sehr aufgeräumt, aber andere wie Mirror, Mail online et al eher chaotisch und bunt
+
+UK einfach sehr unterschiedlich, man kann da im Contentvereich im Grunde wenig Gemeinsamkeiten finden
+habe mich entschieden eher die strukturierten als VOrbild zu nehmen, denn von sehr geordnet bis komplett durcheinander ist alles dabei. habe mich sonst auch eher auf ernste nachrichten bezogen
+
+Gibt geordnet, große Bilder und Platz (teils auch mit GRid umgesetzt wie mirror und https://www.telegraph.co.uk/#source=refresh) mit dezenter WErbung und auf der anderen Seite eng, viel Textg und viele kleine Bilder auf kleinem Raum und teils massiv Werbung- nach Inhalt unterscheidbar?
+Auf den ersten Blick jetzt nicht unbe dingt. Guardian ist eine Mischform aus beiden
+in den chaotischeren bleibt man auch nicht im Raster mit den Cols
