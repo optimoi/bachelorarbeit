@@ -110,7 +110,7 @@ Russland: auf avito.ru z B 28 Anzeigen geblockt
 
 Werbeanzeigen sind sehr dominant, größer als die Contentbilder, sehr viele Anzeigen bisweilen, oben, unten vorne hinten
 Seite wirkt komplett anders ohne Werbung, aber es gibt keine Adblocker deaktivieren PFlicht
-Werbung als Headerbild
+Werbung als Headerbild, kein Contentheaderbild
 Seiten kleben bisweilen am linken rand, rechts dafür weißraum ungenutzt
 https://news.mail.ru/ - 184 Ads geblockt - mir werden bei Deaktivierung aber keine angezeigt, kann sein, dass ich nicht in der Zielgruppe bin (Geotargeting?), deshalb sehe ich hier nicht so viel Veränderung wie da sein müsste
 es sieht aus als würde was fehlen ohne werbung, alles sieht nackt aus, teils zerstört es die HTML wenn die Werbung ausgeblendet wird
@@ -151,6 +151,25 @@ Social Media eher im Footer, auch Hineis auf Appstore Google und Apple
 
 
 Links werden kaum gekennzeichnet, auch nicht wenn man drüber hovert (außer durch den Cursor)
+
+Es gibt seiten mit viel und welche mit wenig weißraum
+
+
+rambler.ru
+rbc.ru
+lenta.ru
+ria.ru
+news.mail.ru
+mk.ru
+kp.ru
+smi2.ru
+sm-news.ru
+news.rambler.ru
+
+Gern Kachelmäßig16:55 24.06.2020
+
+
+__________________________________________________________________________________________________
 
 India
 
@@ -207,6 +226,14 @@ oben viel um das Logo rum, recht reduziertes Menü (Anzahl), WErbebanner im ober
 - Text auf Bildern (HTML/CSS) häufiger
 - es wird sehr viel mit Bildern, speziell Menschen und Gesichtern gearbeitet
 - weiße Löcher in der Seite, teils hört ein Col einfach auf und fängt später wieder an, weiter unten wird die Strutur anders, es wirkt teils so als hätte man versucht so viel wie mögl unten noch auf die seite zu packen
+
+seneweb.com
+yahoo.com
+senego.com
+dakaractu.com
+senenews.com
+sanslimitesn.com
+leral.net
 
 _________________________________________________________________________________________
 
@@ -420,6 +447,8 @@ teils gar kein footer oder nur eine zeile
 
 
 Namibia
+https://www.namibian.com.na/
+http://gov.na/
 
 Zusätzliche Seite:
 https://www.az.com.na/
@@ -427,6 +456,8 @@ http://www.namibiatourism.com.na/
 http://www.airnamibia.com/
 http://www.unam.edu.na/
 https://www.namibiansun.com/
+https://neweralive.na/
+https://www.az.com.na/
 
 Namibia
 oben schmales und breites Band
@@ -449,7 +480,13 @@ ______________________________________________________________________
 Zambia
 
 wenig Abstand zwischen Bildern und Blöcken
+zambianobserver.com
+diggers.news
+zambiawatchdog.com
 
+Pics genommen von pixabay & https://www.zambianobserver.com/
+
+der richter kommt von diggers.news
 
 ___________________
 

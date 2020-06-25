@@ -237,6 +237,7 @@ main {
 
 .col3 {
   width: 315px;
+  height: 2000px;
   margin-left: 25px;
   margin-right: 25px;
   margin-top: 65px;
@@ -291,7 +292,43 @@ main {
   font-size: 14px;
 }
 
+
+.bild-neben-text-wrapper {
+	height: 70px;
+	width: 290px;
+	margin-top: 25px;
+  margin-left: 15px;
+  float: left;
+}
+.bild-neben-text {
+	float: left;
+}
+
+.bild-neben-text img {
+	width: 80px;
+	height: 70px;
+	padding-right: 10px;
+}
+.bild-neben-text-text {
+	height: 50px;
+	width: 200px;
+	float: left;
+	font-size: 14px;
+	line-height: 15px;
+}
+.bild-neben-text-text a {
+	color: #555555;
+  text-decoration: none;
+}
+
+
+
 /* Slideshow container */
+.noSlide {
+  float: left;
+  padding: 10px;
+  margin-top: 25px;
+}
 
 .mySlides {
   float: left;

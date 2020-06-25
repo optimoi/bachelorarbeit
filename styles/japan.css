@@ -173,6 +173,7 @@ main {
 
 #top-head-right-wrapper {
   float: right;
+	margin-top: 15px;
 }
 
 .button-top {

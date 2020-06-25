@@ -1,0 +1,104 @@
+/* HTML5 display-role reset for older browsers */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, hr,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, main
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 15px;
+  line-height: 18px;
+  font: inherit;
+  vertical-align: baseline;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  box-sizing: border-box;
+  font-family: "Times New Roman";
+  color: #A9AA81;
+
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, menu, nav, section, main {
+  display: block;
+}
+
+/**
+ * Box model
+ */
+body {
+  background-color: #111111;
+}
+
+section {
+  height: 100%;
+}
+
+h1 {
+  color: #A9AA81;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #A9AA81;
+  font-size: 21px;
+  padding-top: 65px;
+  padding-bottom: 25px;
+}
+
+
+h3 {
+  color: #A9AA81;
+  font-size: 21px;
+}
+
+h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#headline {
+  text-align: center;
+  padding-top: 10%;
+}
+
+.square, .square a {
+  width: 180px;
+  height: 180px;
+  padding: 85px 15px 15px 15px;
+  border: 2px solid #A9AA81;
+  float: left;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.marginright {
+  margin-right: 15px;
+}
+
+.margintop {
+  margin-top: 2rem;
+}
+
+.line {
+width: 765px;
+margin: auto;
+height: 180px;
+
+}
+.subpage-line {
+  width: 588px;
+  margin: auto;
+  height: 180px;
+}

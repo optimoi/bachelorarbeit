@@ -21,6 +21,7 @@ time, mark, audio, video {
   -moz-user-select: none;
   -webkit-user-select: none;
   font-family: sans-serif;
+  color: #111111;
 }
 
 
@@ -29,6 +30,11 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, menu, nav, section, main {
   display: block;
+}
+
+article a {
+  text-decoration: none;
+    color: #111111;
 }
 
 /**
@@ -238,7 +244,39 @@ main {
 }
 
 .col3-img1 {
-  background-image: url("../../img/isl/sen/col3-pic-1.jpg");
+  background-image: url("../../img/isl/sen/pic8.jpg");
+  background-repeat: no-repeat;
+  width: 260px;
+  height: 400px;
+  margin-left: 5px;
+
+}
+.col3-img2 {
+  background-image: url("../../img/isl/sen/pic6.jpg");
+  background-repeat: no-repeat;
+  width: 260px;
+  height: 400px;
+  margin-left: 5px;
+
+}
+.col3-img3 {
+  background-image: url("../../img/isl/sen/pic5.jpg");
+  background-repeat: no-repeat;
+  width: 260px;
+  height: 400px;
+  margin-left: 5px;
+
+}
+.col3-img5 {
+  background-image: url("../../img/isl/sen/pic4.jpg");
+  background-repeat: no-repeat;
+  width: 260px;
+  height: 400px;
+  margin-left: 5px;
+
+}
+.col3-img4 {
+  background-image: url("../../img/isl/sen/pic1.jpg");
   background-repeat: no-repeat;
   width: 260px;
   height: 400px;

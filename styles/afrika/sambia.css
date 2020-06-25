@@ -108,7 +108,7 @@ h6 {
   width: 1100px;
   background-color: #FFFFFF;
   margin: auto;
-  height: 2500px;
+  height: 2450px;
 }
 
 .contentwidth-nav {
@@ -267,7 +267,15 @@ h6 {
   width: 270px;
   height: 167px;
   margin-left: 0px;
-  background-image: url("../../img/afr/sam/topbanner.jpg");
+  background-image: url("../../img/afr/sam/270x167-1.jpg");
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+.topbanner-img3 {
+  width: 270px;
+  height: 167px;
+  margin-left: 0px;
+  background-image: url("../../img/afr/sam/270x167-2.jpg");
   background-repeat: no-repeat;
   margin-bottom: 10px;
 }
@@ -370,6 +378,11 @@ article a div:hover {
   line-height: 19px;
 }
 
+
+footer {
+      background-color: #E6E6E6;
+      height: 300px;
+}
 
 
 #footer {

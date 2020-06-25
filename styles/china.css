@@ -434,11 +434,11 @@ float: left;
 }
 
 #werbebanner-top {
-	display: none;
+	display: block;
 }
 
 #werbebanner-top2 {
-		display: none;
+		display: block;
 }
 .werbebanner-breit2 {
 	width: 1190px;
@@ -518,8 +518,8 @@ float: left;
 
 /* Bilderwechselbox rechts */
 .rechts-bilderwechselkasten {
-	height: 150px;
-	width: 315px;
+	height: 170px;
+	width: 335px;
 	border: 1px solid #9a9a9a;
 	margin-bottom: 25px;
 }
@@ -535,7 +535,7 @@ float: left;
 
 .rechts-bilderwechsel-text {
 	float: left;
-	width: 51px;
+	width: 55px;
 	height: 25px;
 	border-right: 1px solid #9a9a9a;
 }
@@ -546,29 +546,30 @@ float: left;
 	height: 25px;
 }
 #rechts-bilderwechsel-bild {
-	background-image: url('img/cn_2er_links_row2-1.jpg');
-	height: 130px;
+	background-image: url("../img/chi/wechsel-rechts-1.jpg");
+	height: 142px;
+	width: 335px;
 	background-repeat: no-repeat,
 
 }
 
 #rbt-1-img {
-	background-image: url("img/cn_2er_links_row2-1.jpg");
+	background-image: url("../img/chi/wechsel-rechts-1.jpg");
 }
 #rbt-2-img {
-	background-image: url("img/cn_2er_links_row2-2.jpg");
+	background-image: url("../img/chi/wechsel-rechts-2.jpg");
 }
 #rbt-3-img {
-	background-image: url("img/cn_2er_links_row1-1.jpg");
+	background-image: url("../img/chi/wechsel-rechts-3.jpg");
 }
 #rbt-3-img {
-	background-image: url("img/cn_2er_links_row1-2.jpg");
+	background-image: url("../img/chi/wechsel-rechts-4.jpg");
 }
 #rbt-4-img {
-	background-image: url("img/cn_2er_links_row1-2.jpg");
+	background-image: url("../img/chi/wechsel-rechts-5.jpg");
 }
 #rbt-5-img {
-	background-image: url("img/cn_2er_links_row1-2.jpg");
+  background-image: url("../img/chi/wechsel-rechts-6.jpg");
 }
 
 
@@ -780,7 +781,7 @@ float: left;
 }
 
 .img-zoom-links1 {
-	background-image: url('img/cn_2er_links_row2-1.jpg');
+	background-image: url("../img/chi/rechts-hover.jpg");
 	background-repeat: no-repeat;
 }
 
