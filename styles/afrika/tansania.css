@@ -94,7 +94,9 @@ ul li a:hover {
 }
 
 h1 {
-
+  color: #ffffff;
+  padding: 15px;
+  font-size: 15px;
 }
 
 h2 a {
@@ -117,21 +119,21 @@ h2 {
 
 
 .contentwidth {
-  width: 940px;
+  width: 1000px;
   margin: auto;
-  height: 2800px;
+  height: 3000px;
   background-color: #FFFFFF;
 }
 
 .contentwidth-topheader {
-  width: 940px;
+  width: 1000px;
   margin: auto;
   height: 40px;
   padding-top: 5px;
 
 }
 .contentwidth-nav {
-  width: 940px;
+  width: 1000px;
   height: 28px;
   margin: auto;
   padding-top: 10px;
@@ -140,7 +142,7 @@ h2 {
 }
 /*Logobereich*/
 .contentwidth-top {
-  width: 940px;
+  width: 1000px;
   padding-top: 45px;
   margin: auto;
   background-color: #FFFFFF;
@@ -161,9 +163,9 @@ h2 {
 }
 
 .col1 {
-  width: 600px;
+  width: 650px;
   float: left;
-  margin-left: 10px;
+  margin-left: 15px;
   border-right: 1px solid #efefef;
 }
 .col2 {
@@ -173,14 +175,34 @@ h2 {
 
 }
 
-.werbebanner-top {
-  width: 450px;
-  height: 300px;
-  padding: 15px;
-  margin-top: 15px;
-margin-left: 50px;
-  border: 1px solid #c5c5c5;
+
+/* Col 1 Topbanner mit Text auf Farbe auf Bild */
+
+#topbanner-wrapper {
+  height: 560px;
 }
+
+
+.topbanner-img {
+  height: 505px;
+  width: 640px;
+  margin-top: 15px;
+  background-image: url("../../img/afr/tan/topbanner.jpg");
+  background-repeat: no-repeat;
+  margin-bottom: 60px;
+}
+
+.topbanner-spacer {
+  height: 405px;
+}
+
+.topbanner-farbverlauf {
+  height: 100px;
+  background-color: #222222;
+  opacity: 0.9;
+
+}
+
 
 .col2-text {
   padding: 15px 0px 15px 0px;
@@ -285,7 +307,7 @@ footer {
 }
 
 .footer {
-    width: 940px;
+    width: 1000px;
     margin: auto;
     background-color: #2C4585;
       height: 32px;

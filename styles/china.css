@@ -82,12 +82,22 @@ a:hover {
 .cn-top-head-li {
   display:inline-block;
   text-decoration:none;
+	color: #FFFFFF;
+}
+
+.cn-top-head-li a {
+	color: #FFFFFF;
+}
+
+.cn-top-head-li a:hover {
+	text-decoration: underline;
+	color: #FFFFFF;
 }
 
 /*Links über dem Logobereich */
 
 #cn-top-head-wrapper {
-  background-color: #efefef;
+  background-color: #1579D7;
   height: 38px;
   border-bottom: 1px solid #dedede;
 }
