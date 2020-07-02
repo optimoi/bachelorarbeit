@@ -14,7 +14,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 13px;
 	font: inherit;
 	vertical-align: baseline;
 	-moz-user-select: none;
@@ -31,7 +31,7 @@ footer, menu, nav, section, main {
 
 html {
   background-color: #FFFFFF;
-	line-height:22px;
+	line-height:18px;
 	text-align: left;
 }
 
@@ -50,8 +50,8 @@ nav ul li {
 	display:inline;
 	text-decoration:none;
   text-align: left;
-  padding-right: 18px;
-  font-size: 14px;
+  padding-right: 12px;
+  font-size: 12px;
 }
 
 nav ul {
@@ -63,8 +63,8 @@ nav ul ul li {
     display: block;
     padding: 0;
     margin: 0;
-    font-size: 14px;
-    width: 45px;
+    font-size: 13px;
+    width: 65px;
     line-height: 30px;
     text-align: center;
 }
@@ -83,6 +83,8 @@ a:hover {
   display:inline-block;
   text-decoration:none;
 	color: #FFFFFF;
+	font-size: 12px;
+	margin-right: 15px;
 }
 
 .cn-top-head-li a {
@@ -103,7 +105,7 @@ a:hover {
 }
 
 #cn-top-head-width {
-  width: 1220px;
+  width: 1000px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 10px;
@@ -112,7 +114,7 @@ a:hover {
 
 #cn-top-head-nav  {
   text-align: right;
-  margin-right: 58px;
+
 }
 
 #cn-top-head-left {
@@ -121,21 +123,13 @@ a:hover {
 }
 
 #cn-top-head-left a {
-	  font-size: 14px;
+	  font-size: 11px;
 }
 
-/* Aktive Sprachversion */
-#active-lang {
-  font-weight: bolder
-}
 
-/*Switcher für alternativen Headerbereich*/
-#switcher:hover {
-	  color: #1579D7;
-}
 
 .main {
-  width: 1220px;
+  width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -153,35 +147,42 @@ a:hover {
 	margin-top: 12px;
 	padding-bottom: 0px;
 }
+.box-nav  {
+  padding-top:8px;
+  display: inline-block;
+  line-height: 15px;
+  text-align: left;
+  width: 174px;
+  float: left;
+}
+
+
 
 .box  {
   padding-top:8px;
   display: inline-block;
-  line-height: 17px;
+  line-height: 15px;
   text-align: left;
-  width: 213px;
+  width: 203px;
   float: left;
 }
 
 #box1 {
   border-left:none;
-  margin:0;
-  float:left;
-
-
+  padding-left:10px;
 }
 
 .box2  {
   border-left: 1px solid #dedede;
-  padding-left:31px;
+  padding-left:28px;
 }
 
 .boxlast {
   padding-top:8px;
   float:left;
-  line-height: 17px;
+  line-height: 15px;
   text-align: left;
-  width: 215px;
+  width: 175px;
 }
 
 .search_padding {
@@ -190,6 +191,7 @@ a:hover {
 
 #logoleiste {
   height: 60px;
+	width:1200px;
   margin-top: 20px;
 
 }
@@ -197,13 +199,13 @@ a:hover {
 
 
 #logo {
-  width: 160px;
+  width: 140px;
   float:left;
 }
 
 #suche {
-  width: 380px;
-  margin-left: 40px;
+  width: 280px;
+  margin-left: 90px;
   border-radius: 4px;
   border-right: none;
   height: 35px;
@@ -228,6 +230,7 @@ a:hover {
 
 #search_lupe:hover {
   background-color: #004b91;
+	  border-color: #004b91;
 }
 
 
@@ -235,7 +238,7 @@ a:hover {
 #submenu {
   display: none;
   position: absolute;
-  margin-left: 147px;
+  margin-left: 117px;
   padding-top: 6px;
 }
 
@@ -259,20 +262,22 @@ width: 11px;
 #qr_schrift {
   padding-top: 20px;
   text-align: right;
-  width: 250px;
-		margin-left: 50px;
+  width: 150px;
+	margin-left: 50px;
+	font-size: 14px;
 }
 
 
 #qr_img_div {
-width: 120px;
+width: 100px;
+margin-left: -25px;
 
 
 }
 #qr_img {
   width: 100px;
-  padding-left: 48px;
-  position: absolute;
+
+    position: absolute;
   display: none;
 }
 
@@ -287,10 +292,11 @@ width: 120px;
 }
 
 #contact {
-  width: 222px;
+  width: 172px;
 	float: left;
 	text-align: right;
   padding-top: 18px;
+	font-size: 14px;
 
 }
 /*Switchable Header Height */
@@ -359,7 +365,7 @@ float: left;
 
 /*Bildunterschrift Slider links*/
 .sider1_img_desc {
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 11px;
 	padding-top: 7px;
 	padding-left: 2px;
@@ -381,7 +387,7 @@ float: left;
 
 /*Bildunterschrift Slider links*/
 .bild-mit-text_desc {
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 11px;
 	padding-top: 7px;
 	padding-left: 2px;
@@ -391,7 +397,7 @@ float: left;
 
 /*Seitenmenü neben Slider */
 .boxseitenmenu {
-	  line-height: 17px;
+	  line-height: 15px;
 	  width: 150px;
 	  float: left;
 		margin-right: 0px;
@@ -424,22 +430,22 @@ float: left;
 
 
 #liste-links-seitenmenu a {
-	font-size: 16px;
+	font-size: 13px;
 }
 
 /*Werbebanner top (wird nur eingeblendet wenn Slider display none)*/
 .werbebanner-breit {
-	width: 1040px;
+	width: 870px;
 	margin-top: 20px;
 	float: left;
 }
 
 .werbebanner-schmal {
-	width: 121px;
+	width: 111px;
 	float: left;
 	margin-left: 5px;
 	margin-top: 21px;
-	height: 95px;
+	height: 80px;
 
 }
 
@@ -451,7 +457,7 @@ float: left;
 		display: block;
 }
 .werbebanner-breit2 {
-	width: 1190px;
+	width: 990px;
 	margin-top: 17px;
 
 }
@@ -483,29 +489,29 @@ float: left;
 }
 
 .col2 {
-	width: 560px;
+	width: 355px;
 	float:left;
-	margin-left: 20px;
+	margin-left: 15px;
 	margin-top: 20px;
 }
 
 .col3{
-	width: 340px;
+	width: 355px;
 	float:left;
+		margin-left: 25px;
 	margin-top: 25px;
 }
 
 .col1und2 {
-	width: 810px;
+	width: 620px;
 	float:left;
 	margin-top: 28px;
 }
 
 .textbox-mitte {
-	width: 540px;
 	padding: 0px 0px 0px  0px;
-	line-height: 28px;
-	font-size: 16px;
+	line-height: 26px;
+	font-size: 13px;
 }
 
 .text-unter-einer-links {
@@ -538,7 +544,7 @@ float: left;
 	border-bottom: 1px solid #9a9a9a;
 	background-color:#efefef;
 	text-align: center;
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: bold;
 	padding-top: 2px;
 }
@@ -589,7 +595,7 @@ float: left;
 	width: 220px;
 	padding: 0px 0px 0px  0px;
 	line-height: 25px;
-	font-size: 14px;
+	font-size: 13px;
 }
 
 .textbox-rechts {
@@ -597,7 +603,7 @@ float: left;
 	padding: 0px 0px 0px  0px;
 	margin: 0px 0px 0px  0px;
 	line-height: 25px;
-	font-size: 14px;
+	font-size: 13px;
 }
 
 .Zweier-mit-descr-Abstand-oben {
@@ -612,17 +618,18 @@ float: left;
 
 .Bilderreihe-3col-mit-descr {
 	float: left;
+	width: 160px;
 	border: none;
 	margin-right:6px;
 }
 
 .Bilderreihe-3col-mit-descr img {
-	width: 165px;
+	width: 155px;
 	height: 90px;
 }
 .Bilderreihe-3col-mit-descr-text {
 	font-size: 12px;
-	width: 155px;
+
 	line-height:16px;
 	margin-bottom: 10px;
 	text-align: center;
@@ -672,22 +679,27 @@ float: left;
 
 /*menü im text  über hr */
 .menuepunkt-ueber-hr {
-	font-size: 18px;
-	font-weight: normal;
+	font-size: 16px;
+
 	color: #333;
 }
 
 .ueberschrift-blau {
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: bolder;
-	color: #1579D7;
+	color: #121212;
 	padding-bottom: 11px;
-	border-bottom: 1.8px solid #d6d6d6;
+	border-bottom: 1.8px solid #1579D7;
 	margin-bottom: 10px;
 }
 
 .ueberschrift-blau-col1und2 {
-	color: #1579D7;
+	color: #121212;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 13px;
+	border-bottom: 1.8px solid #1579D7;
+	margin-bottom: 10px;
 }
 
 .border {
@@ -730,7 +742,7 @@ float: left;
 
 }
 .einer-bild-mit-text-text {
-	font-size: 14px;
+	font-size: 13px;
 	width: 114px;
 	line-height:20px;
 	float: left;
@@ -738,7 +750,7 @@ float: left;
 }
 
 .einer-bild-mit-text-text-rechts-col3 {
-	font-size: 14px;
+	font-size: 13px;
 	width: 195px;
 	line-height:26px;
 	float: left;
@@ -778,9 +790,8 @@ float: left;
 /* Zoom Bild rechte Spalte */
 .zoom1 {
 	padding: 0px;
-  background-color: green;
   transition: transform .2s;
-  width: 320px;
+  width: 340px;
   height: 100px;
 }
 
@@ -797,9 +808,12 @@ float: left;
 
 .zoom-links1-wrapper {
 	width: 320px;
-  height: 115px;
+	padding: 10px;
+	  border: 1px solid #efefef;
+  height: 105px;
 	overflow: hidden;
 	margin-top: 20px;
+	margin-bottom: 15px;
 
 }
 /* Zoom-Bild links 1*/
@@ -848,11 +862,11 @@ float: left;
 }
 
 .Zweier-mit-descr-rechts img {
-	width: 150px;
+	width: 156px;
 }
 
 .Zweier-mit-descr-rechts-img1 {
-	margin-right:1px;
+	margin-right:10px;
 }
 
 /*1und2er Col*/
@@ -863,7 +877,7 @@ float: left;
 
 /*Footer*/
 footer {
-		width:1200px;
+		width:990px;
 		height: 100px;
 		text-align: left;
 		font-size: 12px;
@@ -878,7 +892,7 @@ footer {
 footer  li {
   text-decoration:none;
 	display: inline;
-	padding-left: 107px;
+	padding-left: 55px;
 	text-align: left;
 }
 .footer-abstand  {
@@ -916,7 +930,7 @@ footer .footer-lower-line a {
 	padding-top:20px;
 	padding-right: 0px;
 	padding-bottom: 30px;
-	height: 50px;
+	height: 100px;
 }
 
 .footer-border2{
@@ -924,19 +938,19 @@ footer .footer-lower-line a {
 	border-bottom: none;
 	padding-top: 25px;
 	padding-right: 0px;
-	padding-left: 40px;
+	padding-left: 30px;
 	height: 80px;
 }
 
 .footer-4er {
 	line-height: 16px;
-	height: 18px;
+	height: 2	8px;
 	padding-left: 30px;
 }
 
 .footer-4er-1-4 {
 	float:left;
-	width: 350px;
+	width: 250px;
 }
 
 .footer-4er-2-3 {
@@ -944,8 +958,8 @@ footer .footer-lower-line a {
 	width: 230px;
 }
 .footer-siegel {
-	width: 50px;
-	padding-left: 20px;
+	width: 45px;
+	padding-left: 10px;
 	float: left;
 }
 

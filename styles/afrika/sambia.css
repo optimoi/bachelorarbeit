@@ -89,7 +89,7 @@ h5 {
 }
 
 h6 {
-  padding: 15px 40px 5px 0px;
+  padding: 15px 40px 15px 0px;
   font-size: 21px;
   margin-top: 25px;
   margin-right: 35px;
@@ -102,13 +102,17 @@ h6 {
   margin: auto;
 
 }
-
+.col1 {
+  width: 800px;
+  height: 500px;
+  float: left;
+}
 
 .contentwidth-main {
   width: 1100px;
   background-color: #FFFFFF;
   margin: auto;
-  height: 2450px;
+  height: 2750px;
 }
 
 .contentwidth-nav {
@@ -337,6 +341,36 @@ h6 {
   margin-bottom: 25px;
 }
 
+/* Zweier B ü T */
+
+.bild-uber-text-zweier-wrapper {
+    height: 330px;
+    padding: 0pc 25px 0px 25px;
+    margin-top: 15px;
+    width: 1000px;
+    margin-left: 12px;
+    float: left;
+}
+
+.zweier-unten-img {
+  width: 308px;
+  height: 180px;
+}
+
+.bild-uber-text-zweier {
+  float: left;
+  margin-right: 25px;
+}
+.zweier-text {
+  font-size: 19px;
+  width: 250px;
+  padding-top: 5px;
+  font-weight: bold;
+
+}
+
+
+
 
 article a  {
   text-decoration: none;
@@ -355,15 +389,15 @@ article a div:hover {
   line-height: 20px;
   font-size: 15px;
   padding-top: 10px;
-  width: 790px;
+  width: 600px;
 }
 
 
 .bild-text-wrapper {
-    margin: 0px 15px 45px 35px;
-    width: 820px;
+    margin: 15px 15px 45px 35px;
+    width: 620px;
     float: left;
-    height: 170px;
+    height: 190px;
 }
 
 .dreier {
@@ -376,6 +410,43 @@ article a div:hover {
   padding: 10px 5px 25px 0px;
   font-size: 16px;
   line-height: 19px;
+}
+
+.col2 {
+  float: left;
+  height: 850px;
+  padding-top: 15px;
+}
+
+.bild-neben-text-wrapper {
+	height: 80px;
+	width: 300px;
+	margin-top: 5px;
+
+}
+.bild-neben-text {
+	float: left;
+
+}
+
+.bild-neben-text img {
+	width: 85px;
+	height: 55px;
+	padding-right: 10px;
+  padding-bottom: 15px;
+}
+.bild-neben-text-text {
+	height: 50px;
+	width: 180px;
+	float: left;
+  padding-top: 5px;
+	font-size: 14px;
+  font-weight: bold;
+	line-height: 15px;
+}
+.bild-neben-text-text a {
+	color: #555555;
+  text-decoration: none;
 }
 
 

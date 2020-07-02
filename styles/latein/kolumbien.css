@@ -354,9 +354,23 @@ main {
 .banner-breit-img {
   width: 540px;
   height: 270px;
-  background-image: url("../../img/lat/els/topbanner.jpg");
+  background-image: url("../../img/lat/kol/breit1.jpg");
   background-repeat: no-repeat;
 }
+.banner-breit-img2 {
+  width: 540px;
+  height: 270px;
+  background-image: url("../../img/lat/kol/breit3.jpg");
+  background-repeat: no-repeat;
+}
+.banner-breit-img3 {
+  width: 540px;
+  height: 270px;
+  background-image: url("../../img/lat/kol/breit2.jpg");
+  background-repeat: no-repeat;
+}
+
+
 
 .banner-breit-spacer {
   height: 172px;
@@ -382,10 +396,40 @@ float: left;
   margin-right: 25px;
 }
 
-.galerie-banner-breit-img {
+.galerie-banner-breit-img1 {
   width: 353px;
   height: 380px;
-  background-image: url("../../img/lat/els/topbanner.jpg");
+  background-image: url("../../img/lat/kol/hg1.jpg");
+  background-repeat: no-repeat;
+}
+.galerie-banner-breit-img2 {
+  width: 353px;
+  height: 380px;
+  background-image: url("../../img/lat/kol/hg2.jpg");
+  background-repeat: no-repeat;
+}
+.galerie-banner-breit-img3 {
+  width: 353px;
+  height: 380px;
+  background-image: url("../../img/lat/kol/hg3.jpg");
+  background-repeat: no-repeat;
+}
+.galerie-banner-breit-img4 {
+  width: 353px;
+  height: 380px;
+  background-image: url("../../img/lat/kol/hg4.jpg");
+  background-repeat: no-repeat;
+}
+.galerie-banner-breit-img5 {
+  width: 353px;
+  height: 380px;
+  background-image: url("../../img/lat/kol/hg5.jpg");
+  background-repeat: no-repeat;
+}
+.galerie-banner-breit-img6 {
+  width: 353px;
+  height: 380px;
+  background-image: url("../../img/lat/kol/hg6.jpg");
   background-repeat: no-repeat;
 }
 

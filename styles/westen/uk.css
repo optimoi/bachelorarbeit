@@ -502,7 +502,25 @@
     .topsmall-img {
       width: 242px;
       height: 220px;
-      background-image: url("../../img/lat/els/topbanner.jpg");
+      background-image: url("../../img/wes/uk/top1.jpg");
+      background-repeat: no-repeat;
+    }
+    .topsmall-img2 {
+      width: 242px;
+      height: 220px;
+      background-image: url("../../img/wes/uk/top2.jpg");
+      background-repeat: no-repeat;
+    }
+    .topsmall-img3 {
+      width: 242px;
+      height: 220px;
+      background-image: url("../../img/wes/uk/top3.jpg");
+      background-repeat: no-repeat;
+    }
+    .topsmall-img4 {
+      width: 242px;
+      height: 220px;
+      background-image: url("../../img/wes/uk/top4.jpg");
       background-repeat: no-repeat;
     }
 
@@ -520,7 +538,14 @@
     .topsmall-img-narrow {
       width: 330px;
       height: 250px;
-      background-image: url("../../img/lat/els/topbanner.jpg");
+      background-image: url("../../img/wes/uk/narrow2.jpg");
+      background-repeat: no-repeat;
+    }
+
+    .topsmall-img-narrow2 {
+      width: 330px;
+      height: 250px;
+      background-image: url("../../img/wes/uk/narrow-top.jpg");
       background-repeat: no-repeat;
     }
 

@@ -42,8 +42,8 @@ html {
 
 
 h1 {
-    background-color: #E7E7E7;
-    text-transform: uppercase;
+    background-color: #E70021;
+    color: white;
     padding-left: 15px;
     padding-top: 9px;
     padding-bottom: 5px;
@@ -60,12 +60,12 @@ h2 {
 }
 
 h3 {
-  background-color: #E7E7E7;
-  text-transform: uppercase;
+  background-color: #111111;
   padding-left: 15px;
   padding-top: 9px;
   padding-bottom: 5px;
   font-size: 15px;
+  color: white;
   margin-bottom: 15px;
 }
 
@@ -76,12 +76,20 @@ h3 {
 }
 
 .contentwidth-topheader {
-  width: 1400px;
+  width: 1200px;
+  height: 90px;
+  margin: auto;
+}
+
+nav {
+  height: 30px;
+  width: 1200px;
+  background-color: #E70021;
   margin: auto;
 }
 
 .contentwidth-werbebanner {
-  width: 1400px;
+  width: 1200px;
   margin: auto;
 
 }
@@ -92,7 +100,7 @@ h3 {
 }
 
 header {
-  background-color: #1C2C5D;
+  background-color: #FFFFFF;
   height: 200px;
 
 }
@@ -103,7 +111,7 @@ header {
 
 
 .topheader-bg {
-  background-color: #4361BB;
+  background-color: #222222;
   height: 40px;
 }
 .topheader-bg ul {
@@ -122,7 +130,7 @@ header {
   margin-left: 15px;
 }
 .topheader-bg ul li a {
-    color: #FFFFFF;
+    color: #efefef;
     text-decoration: none;
 }
 
@@ -132,8 +140,7 @@ header {
 }
 
 #logo-img {
-  width: 210px;
-  margin-bottom: 45px;
+  width: 310px;
   padding-top: 15px;
   float: left;
 }
@@ -141,10 +148,10 @@ header {
 /* Submenue */
 
 #cssmenu {
-  height: 80px;
+  height: 30px;
+  margin-top: 15px;
   text-align: left;
-  float: right;
-  padding-top: 35px;
+  padding-top: 15px;
 }
 
 #cssmenu li {
@@ -161,7 +168,7 @@ header {
 ---------------------------------------*/
 #cssmenu .dropdown {
     left:0;
-    background-color:#4361BB;
+    background-color:#E70021;
     position:absolute;
     display:none;
     width: 35px;
@@ -223,36 +230,36 @@ main {
 }
 
 .col1 {
-  width: 230px;
+  width: 200px;
   float: left;
-  margin-right: 25px;
+  margin-right: 15px;
   margin-top: 65px;
 }
 
 .col2 {
-  width: 650px;
+  width: 550px;
   margin-top: 65px;
   float: left;
 }
 
 .col3 {
-  width: 315px;
+  width: 285px;
   height: 2000px;
   margin-left: 25px;
-  margin-right: 25px;
+  margin-right: 15px;
   margin-top: 65px;
   float: left;
 }
 
 /* Werbeplatz ganz rechts, nur oben */
 .col4 {
-  width: 130px;
+  width: 100px;
     margin-top: 65px;
     float: left;
 }
 
 .colAll {
-  height: 800px;
+  height: 650px;
   width: 1400px;
       margin-top: 35px;
   float: left;
@@ -290,14 +297,15 @@ main {
 .nebenthemen-text {
   padding-left: 5px;
   font-size: 14px;
+  padding-bottom: 25px;
+  padding-right: 15px;
 }
 
 
 .bild-neben-text-wrapper {
 	height: 70px;
 	width: 290px;
-	margin-top: 25px;
-  margin-left: 15px;
+	margin-top: 5px;
   float: left;
 }
 .bild-neben-text {
@@ -305,13 +313,13 @@ main {
 }
 
 .bild-neben-text img {
-	width: 80px;
-	height: 70px;
+	width: 65px;
+	height: 45px;
 	padding-right: 10px;
 }
 .bild-neben-text-text {
 	height: 50px;
-	width: 200px;
+	width: 120px;
 	float: left;
 	font-size: 14px;
 	line-height: 15px;
@@ -359,7 +367,7 @@ main {
 }
 
 .img-slider {
-	width: 600px;
+	width: 500px;
   padding: 15px 15px 0px 15px;
 }
 
@@ -389,7 +397,7 @@ main {
 
 #dot-container {
   float: left;
-  margin-left: 280px;
+  margin-left: 240px;
   margin-top: 8px;
 }
 
@@ -407,17 +415,28 @@ article a div:hover {
 
 /* Scrollbar rechts */
 .scrollbar {
-    width: 315px;
+    width: 275px;
     margin-bottom: 45px;
-    float: left;
     color: #333333;
-    height:495px;
+    height:405px;
     overflow: scroll;
 }
 
 .scrollbar-pic {
-   width: 260px;
-   margin: 25px 15px 10px 20px;
+   width: 240px;
+   margin: 25px 15px 10px 0px;
+}
+
+.pic {
+  width: 230px;
+  height: 130px;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+.pic-right {
+  width: 250px;
+  padding: 15px  15px  45px 10px;
 }
 
 .scrollbar-text {
@@ -434,35 +453,41 @@ article a div:hover {
   font-size: 17px;
   font-weight: bold;
   margin: 0px 15px 0px 0px;
+  color: #121212;
   }
 
   h5 {
-    background-color: #E7E7E7;
+    background-color: #121212;
     text-transform: uppercase;
     padding-left: 15px;
     padding-top: 9px;
     padding-bottom: 5px;
-
+    color: white;
     font-size: 15px;
 
   }
+   h6  a {
+   text-decoration: none;
+   font-size: 17px;
+   padding-right: 15px;
+   color: #121212;
+   }
   .vierer-zwei-unten {
     margin-left:38px;
   }
   .vierer-unten-img {
-    width: 321px;
+    width: 221px;
 
   }
   .vierer-unten {
     float: left;
-    width: 321px;
-    height: 350px;
-    padding-bottom: 45px;
+    width: 221px;
+    height: 320px;
   }
   .vierer-text {
     font-size: 14px;
     line-height: 20px;
-    padding: 4px 10px 25px 0px;
+    padding: 4px 10px 15px 0px;
   }
 
   /*Footerstyles */
@@ -473,7 +498,7 @@ article a div:hover {
      height: 350px;
   }
   .footer {
-    width: 1400px;
+    width: 1000px;
     margin: auto;
     padding-top: 45px;
     padding-bottom: 30px;
@@ -504,7 +529,7 @@ article a div:hover {
 
   .footer-nebneinander {
     float: left;
-      width: 315px;
+      width: 215px;
 
   }
 
